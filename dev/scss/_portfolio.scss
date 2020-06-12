@@ -1,0 +1,170 @@
+
+.portfolio-left {
+	text-align: center;
+    h2 {
+        font-weight: 100;
+        border-bottom: 3px solid $golden;
+		display: inline-block;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.portfolio-left-filter {
+		display:block;
+		h2 {
+			border:none;
+			text-align: center;
+			display: block;
+			font-size:20px;
+			margin-top: 0;
+			margin-bottom: 20px;
+  		}
+	}
+	.all-projects {
+		display: flex;
+    	flex-wrap: wrap;
+		justify-content: center;
+		.portfolio-item {
+			.project-link {
+				figure {
+					.project-image {
+						height: 147px;
+						width: 300px;
+					}
+				}
+			}
+		}
+	}
+}
+.portfolio-left-filter-buttons {
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+	.btn {
+		width:100px;
+		margin:7px;
+	}
+}
+.project-link {
+  text-decoration: none;
+  color:$black;
+}
+.project-image {
+  	height: 200px;
+  	width: 300px;
+	margin-bottom: 10px;
+}
+.tool-icon {
+    height:20px;
+    width:20px;
+}
+.portfolio-item {
+	figure {
+		border: 1px solid $black;
+		padding: 6px;
+	}
+}
+figcaption {
+    display:flex;
+    justify-content: space-between;
+    p {
+        margin:0;
+        padding:0;
+    }
+}
+.portfolio-right {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+//FILTER FUNCTION
+.container {
+	overflow: hidden;
+	height:calc(100vh - 167px);
+} 
+.filterDiv {
+  	display: none; 
+}
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+.btn {
+    border-radius: 2px;
+    border: none;
+    height: 45px;
+    width:150px;
+    padding: 0;
+    margin-bottom: 5px;  
+}
+  /* Style the filter buttons */
+.filter-button {
+    background-color: #7b717147;
+    color: $black;
+    transition: .3s ease;
+    &:hover {
+		color: $black;
+		transition: .2s ease;
+		border: 1px solid $black;
+		text-decoration: none;
+  	}
+}
+//420 
+@media screen and (min-width: $phoneIphone) {
+	.portfolio-left {
+		.all-projects {
+			.portfolio-item {
+				.project-link {
+					figure {
+						.project-image {
+							height: 170px;
+							width: 300px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: $phonePixel) {
+	.portfolio-left {
+		.all-projects {
+			.portfolio-item {
+				.project-link {
+					figure {
+						.project-image {
+							height: 263px;
+							width: 430px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: $tabletsmall){  
+	.portfolio-left {
+		.portfolio-left-filter {
+    		display:none;
+  		}
+	}
+}
+
+
+@media screen and (min-width: $desktopLarge) {
+	.portfolio-left {
+		.all-projects {
+			.portfolio-item {
+				.project-link {
+					figure {
+						.project-image {
+							height: 300px;
+							width: 494px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

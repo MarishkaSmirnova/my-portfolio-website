@@ -1,0 +1,32 @@
+//Colors
+$golden: #F9BE02;
+$sky:#7cdbd566;
+$bright_coral:#F53240;
+$black:black;
+$white:white;
+
+
+//Fonts
+$font:'Roboto Condensed', sans-serif;
+$form-font: 'Open Sans', sans-serif;
+
+// Utility variables
+$link-hover-selector: '&:hover, &:focus, &:active';
+
+
+// Function to
+// Convert Px to Ems
+@function em($px, $bc: 16){
+    @return #{$px/$bc}em; 
+}
+
+// Media Query Breakpoints
+$desktopLarge: em(1800);
+$desktopMedium: em(1250);
+$tabletLandscape: em(1024);
+$tabletPortrait: em(850);
+$tabletsmall: em(780);
+$phonePixel:em(690);
+$phoneLandscape: em(680);
+$phoneIphone: em(420);
+$phoneMinimal: em(320);

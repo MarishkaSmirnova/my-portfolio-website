@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: overflow;
+    z-index:1;   
+}
+.left-side,
+.right-side {
+    overflow: auto;
+    height:calc(100vh - 167px);
+    // padding: .5rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+.left-side {
+    flex:3;
+}
+.right-side {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-left:1px solid $black;
+    padding:0;
+    margin:0;
+    display:none;
+}
+
+@media screen and (min-width: $phonePixel){  
+    .container {
+        z-index:1;
+    }
+    
+    .right-side {
+        text-align:center;
+    }
+   
+}
+//780
+@media screen and (min-width:$tabletsmall ){ 
+	.right-side,
+    .left-side{
+        display:block;
+    }
+}

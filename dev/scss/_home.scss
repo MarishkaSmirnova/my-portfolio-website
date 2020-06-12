@@ -1,0 +1,162 @@
+
+.loaded_hidding .spinner {
+	transition: 0.3s opacity;
+	opacity: 0;
+}
+.loaded .spinner {
+	display: none;
+	.all-main-page {
+		display: block;
+	}
+}
+.main-title {
+    text-transform: uppercase;
+}
+.left,
+.right {
+    overflow: auto;
+    height: auto;
+    padding: .5rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    height:calc(100vh - 167px);
+}
+
+.left {
+    flex: 3;
+    padding-top: 4%;
+    padding-left:20px;
+}
+.right {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display:none;
+    padding:0;
+	margin:0;
+	text-align:center;
+}
+.home-main-info {
+	display: inline;
+    .email-title {
+        display: flex;
+        align-items: center;
+        a {
+            font-size:16px;
+        }
+    }
+    h1 {
+        font: 400 50px/60px 'open sans';
+    }
+    p {
+        font: 500 13px/29px 'open sans';
+        margin-bottom: 44px;
+    }
+}
+//also used on the right side of contact page
+.circle1 {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	font-size: 14px;
+	color: $white;
+	line-height: 25px;
+	text-align: center;
+	background: $golden;
+}
+
+//RIGHT SIDE
+.home-project_box {
+    height:200px;
+    p {
+        margin:0;
+    } 
+	.hompage-project-link {
+		display:flex;
+		text-decoration:none;
+		flex-direction: column;
+		color:$black;
+		p {
+			margin:10px; 
+			padding: 3% 0;
+			font-size:12px;
+		} 
+		.project-image {
+			position: relative;
+			display: inline-block;
+			margin: 0 auto;	
+		}
+		.project-image .img-top {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 99;
+		}
+		.project-image:hover .img-top {
+			display: inline;
+		}
+		.image {
+			width:100px;
+			height:100px;
+		}
+		.image2 {
+			width: 137px;
+			height: 26px;
+		}
+		.image3 {
+			width:88px;
+			height: 88px;
+		}
+		img {
+			margin: 0 auto;
+		}
+	}
+}	
+
+.home-project_box:nth-child(odd) {
+    border:1px solid $black;  
+}
+.home-project_box:first-of-type{
+    border-top: none;
+}
+.home-project_box:nth-child(even) {
+    border-left:1px solid $black;  
+    border-right:1px solid $black;  
+}
+//420
+@media screen and (min-width: $phonePixel){  
+    .right{
+        display:block;
+    }
+    .container {
+        z-index:1;
+	}
+	.right-side,
+	.left-side{
+		display:block;
+	}
+}
+	
+//850
+@media screen and (min-width: $tabletPortrait){  
+    .hompage-project-link {
+        p {
+            font-size:16px;
+        }
+    }
+    .box-image3 {
+        width: 173px;
+        height: 32px;
+    }
+}
+//1800 
+@media screen and (min-width: $desktopLarge) {
+	.home-main-info {
+		text-align: center;
+		.email-title {
+			flex-flow: column;
+		}
+	}
+}

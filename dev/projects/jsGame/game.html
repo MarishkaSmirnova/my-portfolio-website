@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta utf=8>
+    <title>RGB Game</title>   
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+
+<body>
+    
+    <h1>
+        Color game <br>
+    <span id="colorDisplay">RedGreenBlue</span>
+    <br>
+    Guess the color acording to numbers
+    </h1>
+
+    <div id="stripe">
+        <button class= "button" id = "reset">New Colors</button>
+        <span id = "message"></span>
+        <button class = "mode button">Easy</button>
+        <button class = "mode selected button">Hard</button>
+    </div>
+
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <audio class="music" type="audio/mpeg" id="music"  autoplay
+    style="position: fixed; bottom: 10px; left:10px; z-index: 10000">
+        <source src="sound/videoplayback.mp3" />
+    </audio>
+
+    <script type="text/javascript" src="scripts/game.js"></script>
+</body>
+
+</html>

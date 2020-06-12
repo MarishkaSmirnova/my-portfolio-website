@@ -1,0 +1,112 @@
+
+  //RIGHT SIDE
+// CONTACT FORM
+label {
+    padding: 10px 0;
+}
+.form-intro {
+	.basic-info {
+		.form-title {
+			display: flex;
+			align-items: center;
+			justify-content:center;
+			font-weight: 100;
+		}
+		.name, 
+		.email, 
+		.message {
+			padding:10px 0;
+			text-align:center;	
+			.input {
+				width:218px;
+				height:28px;
+				border:none;
+				border-bottom: 1px solid black;
+				border-radius:4%;
+				font-family: $form-font;
+			}
+			.textarea {
+				width:218px;
+				height:80px;
+				border-bottom: 1px solid black;
+				margin-top: 10px;
+				font-family: $form-font;
+			}
+			label {
+				padding: 10px 0;
+			}
+		}	
+		.button-submit {
+			text-align: center;
+			input {
+				background-color: $sky;
+			}
+			
+		}
+	}
+}
+
+//LEFT SIDE
+.left-side-contact {
+	display: flex;
+	flex-direction: column-reverse;
+	.contact-left {
+		text-align: center;
+		margin: 20px 0;
+		.greering-text {
+			display: none;
+		}
+		a {
+			color: $black;
+		}
+	}
+}
+.form-and-social-wrapper {
+  display:flex;
+}
+.contact-left {
+	p {
+		font-size: 15px;
+	}
+	a {
+		font-size:14px;
+		img {
+			width:50px;
+		}
+	}
+}
+.location{
+  display:flex;
+}
+.error {
+  color:$bright_coral;
+}
+.thankyou {
+  color:$sky;
+}
+//680
+@media screen and (min-width: $phoneLandscape) {
+	.left-side-contact {
+		flex-direction: row;
+    	justify-content: space-around;
+	}
+}
+//690
+@media screen and (min-width: $phonePixel){  
+  .form-left {
+    display:none;
+  }
+}
+//780 
+@media screen and (min-width: $tabletsmall) {
+	.left-side-contact {
+		.contact-left {
+			.greering-text {
+				display: block;
+			}
+		}
+		form {
+			display: none;
+		}
+	}
+}

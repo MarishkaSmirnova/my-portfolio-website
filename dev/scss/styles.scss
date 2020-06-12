@@ -1,0 +1,24 @@
+
+//utilities
+@import "variables";
+// @import "mixins";
+
+//base
+@import "resets";
+
+//HTML Partials (layout)
+@import "header";
+@import "body-allpages";
+@import "footer";
+
+//pages
+@import "home";
+@import "about";
+@import "portfolio";
+@import "project";
+@import "contact";
+
+// components
+@import 'scroll-button';
+@import "page-loader";
+
