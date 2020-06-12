@@ -1,2 +1,2 @@
-# My portfolio website 
+# Website for the professional lawyer
 
