@@ -19,9 +19,10 @@
 			type="image/png" 
 			href="images/favicon.png">
     <title>Marina Smirnova | Web Design and Development</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:700i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="slick/slick/slick.css">
+	<link rel="stylesheet" href="slick/slick/slick-theme.css">
 	<link rel="stylesheet" href="styles/styles.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
-
 </head>
