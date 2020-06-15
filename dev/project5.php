@@ -1,30 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142146623-1"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-142146623-1');
-		</script>
-
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Marina Smirnova|Web Design and Development</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:700i&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="slick/slick/slick.css">
-		<link rel="stylesheet" href="slick/slick/slick-theme.css">
-		<link rel="stylesheet" href="styles/styles.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
-	</head>
-	<!-- <?php 
+	<?php 
 		include 'head.php';
-		?> -->
+		?>
 	<body>
 		<header>
 			<div class="menu-container">
@@ -134,9 +112,9 @@
 						<button class="project-magic-button magic-button btn filter-button" id="project-magic">
 							<a href="projects/newsApp/" target="_blank">View Live</a>
 						</button>
-						<!-- <?php 
+						<?php 
 						include 'scroll-button.php';
-						?> -->
+						?>
 					</div>
 				</div>
 				<div class="right-side">
@@ -165,12 +143,9 @@
 				</div>
 			</div>	
 		</main>
-		<footer>
-			<p>@Copyright Marina Smirnova, 2019</p>
-		</footer>
-		<!-- <?php 
+		<?php 
 			include 'footer.php';
-			?> -->
+			?>
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 

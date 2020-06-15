@@ -1,68 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142146623-1"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'UA-142146623-1');
-		</script>
-
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Marina Smirnova|Web Design and Development</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:700i&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="slick/slick/slick.css">
-		<link rel="stylesheet" href="slick/slick/slick-theme.css">
-		<link rel="stylesheet" href="styles/styles.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
-
-	</head>
-	<!-- <?php 
+	<?php 
 		include 'head.php';
-		?> -->
+		?>
 	<body>
-		<header>
-			<div class="menu-container">
-				<!-- logo -->
-				<div class="logo-container">
-					<a href="index.html">
-						<img src="images/LOgo.png" class="logo">
-					</a>
-					<a href="index.html" class="text-logo">
-						<h1>Marina Smirnova</h1>
-						<h2>Web Design & Development</h2>
-					</a>
-				</div>
-				<!--end of logo-->
-				<!-- popup-content -->
-				<button class="menu" id="menu">
-					<span class="button-content" tabindex="-1">
-						<span class="text">Menu</span>
-						<span class="bar"></span>
-					</span>
-				</button>
-				<!-- end popup-content -->
-				<nav id="main-navigation">
-					<ul>
-						<li class="link-hover nav-link">
-							<a href="about.html" class="link active">about</a>
-						</li>
-						<li class="link-hover nav-link">
-							<a href="portfolio.html" class="link ">portfolio</a>
-						</li>
-						<li class="link-hover nav-link">
-							<a href="contact.php" class="link ">contact</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
 		<!-- <?php 
 			include 'header.php';
 			?> -->
@@ -108,11 +50,13 @@
 						<section class="project-info left-section" id="development">
 							<div class="project-textpart">
 								<h3>Development Process</h3>
-								<!-- <div class="sourse-code">
+								<div class="sourse-code">
 									<i class="fab fa-github"></i>
-									<a href="students-database-php">sourse code</a>
-								</div> -->
-								<!-- <p>Creating all those projects and exercises gave me hands-on experience with working with react components, children elements, different kinds of component lifecycles and event handlers, creating forms, making asynchronous requests, working with JSON data, fetching data from multiple APIs and many more. During the creation of this particular project, I’ve learned how to use the popular library used by React Applications - React Router.</p> -->
+									<a href="https://github.com/MarishkaSmirnova/php-students-database" target="_blank">sourse code</a>
+								</div>
+								<p>I made a web application that allows a user to administer the students table on the students database. The user is able to view the current state of the table, as well as add, delete or edit a record. 
+									Main PHP page displays the entire students table as an HTML table, one record per row. The background color of each row is alternated. There is an “Add Student” link above the table. There’re also two additional data cells per row, one containing a “Delete” and the other a “Update” link. 
+									The Update and Delete links send record-specific information via a GET query string to the scripts responsible for updating and deleting from the database.</p>
 							</div>
 							<div class="slick-slider">
 								<div><img src="images/php-development.jpg" alt="php development marina smirnova" class="projectpiece"></div>
@@ -120,17 +64,12 @@
 						</section>
 						
 						<button class="project-magic-button magic-button btn filter-button" id="project-magic">
-							<a href="http://oatprogram.bcitwebdeveloper.ca/">View Live</a>
+							<a href="projects/php-students-database/index.php">View Live</a>
 						</button>
 					</div>
-					<div class="wrapper-scroll-button">
-						<span>
-							<span class="scroll-btn">Up</span>
-						</span>
-					</div>
-					<!-- <?php 
+					<?php 
 						include 'scroll-button.php';
-						?> -->
+						?>
 				</div>
 
 				<div class="right-side">
@@ -158,12 +97,9 @@
 				</div>
 			</div>		
 		</main>
-		<footer>
-			<p>@Copyright Marina Smirnova, 2019</p>
-		</footer>
-		<!-- <?php 
+		<?php 
 			include 'footer.php';
-			?> -->
+			?>
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 
