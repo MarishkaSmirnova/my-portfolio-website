@@ -22,9 +22,6 @@
             <nav id="main-navigation">
                 <ul>
                     <li class="link-hover nav-link">
-                        <a href="index.php" class="link active">home</a>
-                    </li>
-                    <li class="link-hover nav-link">
                         <a href="about.php" class="link active">about</a>
                     </li>
                     <li class="link-hover nav-link">

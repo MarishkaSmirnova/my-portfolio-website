@@ -15,11 +15,11 @@
 						<section class="project-info left-section about-section" id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
-									<a href="project6.html" class="prev-button">
+									<a href="project6.php" class="prev-button">
 										<span class="prev-btn">Prev</span>
 										<i class="fas fa-arrow-left"></i>
 									</a>	
-									<a href="project8.html"class="next-button">
+									<a href="project8.php"class="next-button">
 										<span class="next-btn">Next</span>
 										<i class="fas fa-arrow-right"></i>
 									</a>	

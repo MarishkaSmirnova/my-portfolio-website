@@ -14,11 +14,11 @@
 						<section class="project-info left-section about-section" id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
-									<a href="project8.html" class="prev-button">
+									<a href="project8.php" class="prev-button">
 										<span class="prev-btn">Prev</span>
 										<i class="fas fa-arrow-left"></i>
 									</a>	
-									<a href="project2.html"class="next-button">
+									<a href="project2.php"class="next-button">
 										<span class="next-btn">Next</span>
 										<i class="fas fa-arrow-right"></i>
 									</a>	
@@ -118,12 +118,10 @@
 				</div>
 			</div>		
 		</main>
-		<footer>
-			<p>@Copyright Marina Smirnova, 2019</p>
-		</footer>
-		<!-- <?php 
+
+		<?php 
 			include 'footer.php';
-			?> -->
+			?> 
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 

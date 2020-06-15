@@ -4,45 +4,9 @@
 		include 'head.php';
 		?>
 	<body>
-		<header>
-			<div class="menu-container">
-				<!-- logo -->
-				<div class="logo-container">
-					<a href="index.html">
-						<img src="images/LOgo.png" class="logo">
-					</a>
-					<a href="index.html" class="text-logo">
-						<h1>Marina Smirnova</h1>
-						<h2>Web Design & Development</h2>
-					</a>
-				</div>
-				<!--end of logo-->
-				<!-- popup-content -->
-				<button class="menu" id="menu">
-					<span class="button-content" tabindex="-1">
-						<span class="text">Menu</span>
-						<span class="bar"></span>
-					</span>
-				</button>
-				<!-- end popup-content -->
-				<nav id="main-navigation">
-					<ul>
-						<li class="link-hover nav-link">
-							<a href="about.html" class="link active">about</a>
-						</li>
-						<li class="link-hover nav-link">
-							<a href="portfolio.html" class="link ">portfolio</a>
-						</li>
-						<li class="link-hover nav-link">
-							<a href="contact.php" class="link ">contact</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<!-- <?php 
+		<?php 
 			include 'header.php';
-			?> -->
+			?> 
 		<main>
 			<div class="container">
 				<div class="left-side" id="left-side">
@@ -50,11 +14,11 @@
 						<section class="project-info left-section about-section" id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
-									<a href="project4.html" class="prev-button">
+									<a href="project4.php" class="prev-button">
 										<span class="prev-btn">Prev</span>
 										<i class="fas fa-arrow-left"></i>
 									</a>	
-									<a href="project6.html"class="next-button">
+									<a href="project6.php"class="next-button">
 										<span class="next-btn">Next</span>
 										<i class="fas fa-arrow-right"></i>
 									</a>	

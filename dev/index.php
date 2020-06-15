@@ -23,7 +23,7 @@
 					</div>
 					<div class="right">
 						<div class="home-project_box">
-							<a class="hompage-project-link" href="project1.html">  
+							<a class="hompage-project-link" href="project1.php">  
 								<p>Website for</br> the lawyer</p>
 								<div class="project-image image3">
 									<img  src="images/jeff-front.png" alt="project wordpress web developer vancouver">
@@ -32,7 +32,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box">
-							<a class="hompage-project-link" href="project2.html">  
+							<a class="hompage-project-link" href="project2.php">  
 								<p>BCIT React<br> course projects</p>
 								<div class="project-image image">
 									<img  src="images/girl-front.png" alt="project wordpress web developer vancouver">
@@ -41,7 +41,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box1">
-							<a class="hompage-project-link" href="project3.html">  
+							<a class="hompage-project-link" href="project3.php">  
 								<p>AOT program </br>students website</p>
 								<div class="project-image image">
 									<img  src="images/paperclip-front.png" alt="project wordpress web developer vancouver">
@@ -50,7 +50,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box3">
-							<a class="hompage-project-link" href="project4.html">  
+							<a class="hompage-project-link" href="project4.php">  
 								<p>JavaScript</br> Color Game</p>
 								<div class="project-image image2">
 									<img  src="images/rbggame-front.png" alt="javascript project web developer vancouver">
@@ -59,7 +59,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box2">
-							<a class="hompage-project-link" href="project5.html">  
+							<a class="hompage-project-link" href="project5.php">  
 								<p>React News</br> Database</p>
 								<div class="project-image image">
 									<img  src="images/news-front.png" alt="react project web developer vancouver">
@@ -68,7 +68,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box5">
-							<a class="hompage-project-link" href="project6.html">  
+							<a class="hompage-project-link" href="project6.php">  
 								<p>Photoshop</br> Web Design</p>
 								<div class="project-image image">
 									<img  src="images/background-front.png" alt="photoshop project web developer vancouver">
@@ -77,7 +77,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box4">
-							<a class="hompage-project-link" href="project7.html">  
+							<a class="hompage-project-link" href="project7.php">  
 								<p>PHP Database</p>
 								<div class="project-image image2">
 									<img  src="images/php-front.png" alt="php project web developer vancouver">
@@ -86,7 +86,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box6">
-							<a class="hompage-project-link" href="project8.html">  
+							<a class="hompage-project-link" href="project8.php">  
 								<p>Portfolio</br> Website</p>
 								<div class="project-image image">
 									<img  src="images/heart-front.jpg" alt="javascript sass project web developer vancouver">
