@@ -30,7 +30,7 @@
 						<div class="all-projects grid">
 		<!-- PROJECT 1                    -->
 							<div class="portfolio-item js"> 
-								<a href="projects/project1.php" class="project-link filterDiv js php invision photoshop sass jquery google portfolio-item ">
+								<a href="project1.php" class="project-link filterDiv js php invision photoshop sass jquery google portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/jeff-main.jpg" alt=" bcit landing page marina smirnova">
 										<figcaption>
@@ -51,7 +51,7 @@
 							</div>
 		<!-- PROJECT 2                    -->   
 							<div class="portfolio-item js"> 
-								<a href="projects/project2.php" class="project-link filterDiv react invision portfolio-item ">
+								<a href="project2.php" class="project-link filterDiv react invision portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/react-main.png" alt=" bcit landing page marina smirnova">
 										<figcaption>
