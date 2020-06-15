@@ -30,7 +30,7 @@
 						<div class="all-projects grid">
 		<!-- PROJECT 1                    -->
 							<div class="portfolio-item js"> 
-								<a href="project1.html" class="project-link filterDiv js php invision photoshop sass jquery google portfolio-item ">
+								<a href="projects/project1.php" class="project-link filterDiv js php invision photoshop sass jquery google portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/jeff-main.jpg" alt=" bcit landing page marina smirnova">
 										<figcaption>
@@ -51,7 +51,7 @@
 							</div>
 		<!-- PROJECT 2                    -->   
 							<div class="portfolio-item js"> 
-								<a href="project2.html" class="project-link filterDiv react invision portfolio-item ">
+								<a href="projects/project2.php" class="project-link filterDiv react invision portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/react-main.png" alt=" bcit landing page marina smirnova">
 										<figcaption>
@@ -68,7 +68,7 @@
 							</div>
 		<!-- PROJECT 3                    --> 
 							<div class="portfolio-item js"> 
-								<a href="project3.html" class="project-link filterDiv js php jquery sass balsamiq google">
+								<a href="project3.php" class="project-link filterDiv js php jquery sass balsamiq google">
 									<figure>
 										<img class="project-image" src="images/oat-main.jpg" alt="client project bcit oat">
 										<figcaption>
@@ -87,7 +87,7 @@
 							</div>
 		<!-- PROJECT 4                    -->  
 							<div class="portfolio-item react"> 
-								<a href="project4.html" class="project-link filterDiv js portfolio-item ">
+								<a href="project4.php" class="project-link filterDiv js portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/jsdesign1.png" alt="java script project">
 										<figcaption>
@@ -103,7 +103,7 @@
 							</div>	
 		<!-- PROJECT 5                    -->     
 							 <div class="portfolio-item react"> 
-								<a href="project5.html" class="project-link filterDiv react ">
+								<a href="project5.php" class="project-link filterDiv react ">
 									<figure>
 										<img class="project-image" src="images/react-project.png" alt="react project">
 										<figcaption>
@@ -119,7 +119,7 @@
 							</div>
 		<!-- PROJECT 6                    -->  
 							<div class="portfolio-item photoshop"> 
-								<a href="project6.html" class="project-link filterDiv photoshop ">
+								<a href="project6.php" class="project-link filterDiv photoshop ">
 								<figure>
 									<img class="project-image" src="images/photoshop.png" alt="photoshop project web design marina smirnova">
 									<figcaption>
@@ -133,7 +133,7 @@
 							</div>
 		<!-- PROJECT 7					 -->
 							<div class="portfolio-item js"> 
-								<a href="project7.html" class="project-link filterDiv php portfolio-item ">
+								<a href="project7.php" class="project-link filterDiv php portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/php-main.jpg" alt="php project marina smirnova">
 										<figcaption>
@@ -150,7 +150,7 @@
 							</div>
 		<!-- PROJECT 8 -->
 							<div class="portfolio-item ">                       
-								<a href="project8.html" class="project-link filterDiv sass js php jquery balsamiq google">
+								<a href="project8.php" class="project-link filterDiv sass js php jquery balsamiq google">
 									<figure>
 										<img class="project-image" src="images/portfolio-main.png" alt="portfolio site image">
 										<figcaption>
