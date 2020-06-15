@@ -177,7 +177,7 @@
 											</a>
 											<div class="card--border"></div>
 										</div>
-								</div>
+									</div>
 								</div> <!--and ao all cards container-->          
 							</section>
 							<section class="about-work-flow left-section" id="work" >
