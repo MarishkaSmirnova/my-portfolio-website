@@ -1,67 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142146623-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-142146623-1');
-	</script>
-
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Marina Smirnova|Web Design and Development</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:700i&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="styles/styles.css">
-		
-	</head>
-	<!-- <?php 
+	<?php 
 		include 'head.php';
-		?> -->
+		?>
 	<body>
-		<header>
-			<div class="menu-container">
-				<!-- logo -->
-				<div class="logo-container">
-					<a href="index.html">
-						<img src="images/LOgo.png" class="logo">
-					</a>
-					<a href="index.html" class="text-logo">
-						<h1>Marina Smirnova</h1>
-						<h2>Web Design & Development</h2>
-					</a>
-				</div>
-				<!--end of logo-->
-				<!-- popup-content -->
-				<button class="menu" id="menu">
-					<span class="button-content" tabindex="-1">
-						<span class="text">Menu</span>
-						<span class="bar"></span>
-					</span>
-				</button>
-				<!-- end popup-content -->
-				<nav id="main-navigation">
-					<ul>
-						<li class="link-hover nav-link">
-							<a href="about.html" class="link active">about</a>
-						</li>
-						<li class="link-hover nav-link">
-							<a href="portfolio.html" class="link ">portfolio</a>
-						</li>
-						<li class="link-hover nav-link">
-							<a href="contact.php" class="link ">contact</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<!-- <?php 
+		<?php 
 			include 'header.php';
-			?> -->
+			?>
 		<main>
 			<div class="container">
 				<div class="left-side" id="left-side">
@@ -248,12 +193,9 @@
 				</div>
 			</div> 
 		</main>
-		<footer>
-			<p>@Marina Smirnova, 2019</p>
-		</footer>
-		<!-- <?php 
+		<?php 
 			include 'footer.php';
-			?> -->
+			?>
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="scripts/filter.js"></script>
