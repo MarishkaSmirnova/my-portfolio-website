@@ -5,9 +5,9 @@
 		include 'head.php';
 		?>
 	<body>
-		<!-- <?php 
+		<?php 
 			include 'header.php';
-			?> -->
+			?> 
 		<main>
 			<div class="container">
 				<div class="left-side" id="left-side">
