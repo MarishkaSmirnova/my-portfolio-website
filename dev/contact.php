@@ -51,7 +51,7 @@
 					</form>
 				</div>
 				
-				<div class="right-side"">
+				<div class="right-side">
 					<div class="contact-right">
 					<?php @session_start();
 						if(isset($_SESSION['errormessage'])){

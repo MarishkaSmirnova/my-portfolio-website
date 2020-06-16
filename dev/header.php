@@ -3,7 +3,7 @@
 			<!-- logo -->
 			<div class="logo-container">
 				<a href="index.php">
-					<img src="images/LOgo.png" class="logo">
+					<img src="images/LOgo.png" class="logo" alt="marina smirnova logo">
 				</a>
 				<a href="index.php" class="text-logo">
 					<h1>Marina Smirnova</h1>
