@@ -58,13 +58,13 @@
 									<a href="https://github.com/MarishkaSmirnova/news-database-react" target="_blank">sourse code</a>
 								</div>
 								<p>The development task for this assignment included:<br/>
-
 									- to use the React Routing to create menu in the header which allows navigation between the Main and the About page. This About page does not to be fancy, you can just include the information about the developer.<br/>
 									- to apply formatting to each news image with a child component. You may want to apply size or border styling or some other type of formatting.<br/>
 									- allow the user to enter and submit a news topic in the search box to change the news article listed. Use onClick() for this.<br/>
 									- the latest news topic submitted should be stored in a cookie and this topic is always used when the user revisits your application.<br/>
 									- give credits to newsapi.org in the footer of your application.<br/>
 									- use the setCookie() and getCookie() functions in a separate service file. </p>
+									<p>Unfortunately since 22 May 2020 newsapi.org has changed the liberties of the free developer keys and now they reject any request using that key that is not coming from localhost. It's become impossible to show you this project live without purchasing new API key. Please check out the soursecode on GitHub.</p>
 							</div>
 							<div class="slick-slider">
 								<div><img src="images/react1.png" alt="react code" class="projectpiece"></div>
@@ -73,9 +73,9 @@
 							</div>
 						</section>
 						
-						<button class="project-magic-button magic-button btn filter-button" id="project-magic">
+						<!-- <button class="project-magic-button magic-button btn filter-button" id="project-magic">
 							<a href="projects/newsApp/" target="_blank">View Live</a>
-						</button>
+						</button> -->
 						<?php 
 						include 'scroll-button.php';
 						?>
