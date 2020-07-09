@@ -42,7 +42,7 @@
 						<section class="project-info left-section" id="design">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
-								<p>After our meeting we mapped out the content she wanted on it, and made wireframes in Balsamiq to demonstrate the content arrangement. We also prepared a lot of examples with website designs to learn client’s design preferences. Next step was the creation of design protopype in Photoshop and after matching clients wishes the coding part has started.</p>
+								<p>After our meeting we mapped out the content she wanted on it, and made wireframes in Balsamiq to demonstrate the content arrangement. We also prepared a lot of examples with website designs to learn client’s design preferences. Next step was the creation of design prototype in Photoshop and after matching clients wishes the coding part has started.</p>
 							</div>
 							<div class="slick-slider">
 								<div><img src="images/cldes.jpeg" alt="client project sitemap" class="projectpiece"></div>
@@ -59,7 +59,7 @@
 									<i class="fab fa-github"></i>
 									<a href="https://github.com/htpwebdesign/OATProgram" target="_blank">sourse code</a>
 								</div>
-								<p>This website is fully customized using Underscore starter theme. I used Advanced Custom Fields in multiple pages as well as taxonomies for Program page. To create slider for the main page Slick slider is used. For the creation of Schedule page Table Press plugin was chosen. With the help of REST API we created Job Postings section with latest job postings from Indeed.com, Job Bank BC and Craiglist Jobs.</p>
+								<p>This website is fully customized using Underscore starter theme. I used Advanced Custom Fields in multiple pages as well as taxonomies for Program page. To create slider for the main page Slick slider is used. For the creation of Schedule page Table Press plugin was chosen. With the help of REST API we created Job Postings section with latest job postings from Indeed.com, Job Bank BC and Craigslist Jobs.</p>
 							</div>
 							<div class="slick-slider">
 								<div><img src="images/clientdev1.png" alt="client project development marina smirnova" class="projectpiece"></div>
