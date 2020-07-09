@@ -42,7 +42,7 @@
 						<section class="project-info left-section" id="design">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
-								<p>After our meeting we mapped out the content she wanted on it, and made wireframes in Balsamiq to demonstrate the content arrangement. We also prepared a lot of examples with website designs to learn client’s design preferencies. Next step was the creation of design protopype in Photoshop and after matching clients wishes the coding part has started.</p>
+								<p>After our meeting we mapped out the content she wanted on it, and made wireframes in Balsamiq to demonstrate the content arrangement. We also prepared a lot of examples with website designs to learn client’s design preferences. Next step was the creation of design protopype in Photoshop and after matching clients wishes the coding part has started.</p>
 							</div>
 							<div class="slick-slider">
 								<div><img src="images/cldes.jpeg" alt="client project sitemap" class="projectpiece"></div>
