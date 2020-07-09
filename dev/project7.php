@@ -59,7 +59,7 @@
 									The Update and Delete links send record-specific information via a GET query string to the scripts responsible for updating and deleting from the database.</p>
 							</div>
 							<div class="slick-slider">
-								<div><img src="images/php-development.jpg" alt="php development marina smirnova" class="projectpiece"></div>
+								<div><img src="images/php-development.png" alt="php development marina smirnova" class="projectpiece"></div>
 							</div>
 						</section>
 						

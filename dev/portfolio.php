@@ -32,7 +32,7 @@
 							<div class="portfolio-item js"> 
 								<a href="project1.php" class="project-link filterDiv js php invision photoshop sass jquery google portfolio-item ">
 									<figure>
-										<img class="project-image" src="images/jeff-main.jpg" alt=" bcit landing page marina smirnova">
+										<img class="project-image" src="images/jeff-main.png" alt=" bcit landing page marina smirnova">
 										<figcaption>
 											<p>Lawyer's Website</p>
 											<div class="all-tool-icons">
@@ -70,7 +70,7 @@
 							<div class="portfolio-item js"> 
 								<a href="project3.php" class="project-link filterDiv js php jquery sass balsamiq google">
 									<figure>
-										<img class="project-image" src="images/oat-main.jpg" alt="client project bcit oat">
+										<img class="project-image" src="images/oat-main.png" alt="client project bcit oat">
 										<figcaption>
 											<p>OAT Program Website</p>
 											<div class="all-tool-icons">
