@@ -76,7 +76,7 @@
 									<i class="fab fa-github"></i>
 									<a href="https://github.com/MarishkaSmirnova/lawyers-website" target="_blank">sourse code</a>
 								</div>
-								<p>After having the initial designs approved, we moved into the development stage, which is generally my favourite part. I used SASS for this project which was very helpful to keep the fonts, colours and mixins consistent. Developing the website, I used such libraries as JQuery for creation of filter on Practice area page and modal navigation bar, and Slick Slider library for sliders in the Testimonials section on the main page. Contact form is written on PHP. The live site should be launched in July.</p>
+								<p>After having the initial designs approved, we moved into the development stage, which is generally my favourite part. I used SASS for this project which was very helpful to keep the fonts, colours and mixins consistent. While developing the website, I used such libraries as JQuery for creation of filter on Practice area page and modal navigation bar, and Slick Slider library for sliders in the Testimonials section on the main page. Contact form is written with PHP.</p>
 							</div>
 							<div class="slick-slider">
 								<div><img src="images/jeff-code1.jpg" alt="client project development marina smirnova" class="projectpiece"></div>
