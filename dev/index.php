@@ -58,7 +58,7 @@
 								</div>
 							</a> 
 						</div>
-						<div class="home-project_box box2">
+						<!-- <div class="home-project_box box2">
 							<a class="hompage-project-link" href="project5.php">  
 								<p>React News</br> Database</p>
 								<div class="project-image image">
@@ -66,7 +66,7 @@
 									<img class="img-top" src="images/news.png" alt="react project web developer vancouver">
 								</div>
 							</a> 
-						</div>
+						</div> -->
 						<div class="home-project_box box5">
 							<a class="hompage-project-link" href="project6.php">  
 								<p>Photoshop</br> Web Design</p>

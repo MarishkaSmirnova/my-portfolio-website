@@ -18,7 +18,7 @@
 										<span class="prev-btn">Prev</span>
 										<i class="fas fa-arrow-left"></i>
 									</a>	
-									<a href="project5.php"class="next-button">
+									<a href="project6.php"class="next-button">
 										<span class="next-btn">Next</span>
 										<i class="fas fa-arrow-right"></i>
 									</a>	

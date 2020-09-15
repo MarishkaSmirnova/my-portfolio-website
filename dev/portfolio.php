@@ -102,7 +102,7 @@
 								</a>
 							</div>	
 		<!-- PROJECT 5                    -->     
-							 <div class="portfolio-item react"> 
+							 <!-- <div class="portfolio-item react"> 
 								<a href="project5.php" class="project-link filterDiv react ">
 									<figure>
 										<img class="project-image" src="images/react-project.png" alt="react project">
@@ -116,7 +116,7 @@
 										</figcaption>
 									</figure>
 								</a>
-							</div>
+							</div> -->
 		<!-- PROJECT 6                    -->  
 							<div class="portfolio-item photoshop"> 
 								<a href="project6.php" class="project-link filterDiv photoshop ">
