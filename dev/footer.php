@@ -1,3 +1,3 @@
 <footer>
-	<p>@ Marina Smirnova,<?php echo date("Y"); ?></p>
+	<p>@ Marina Smirnova, <?php echo date("Y"); ?></p>
 </footer>

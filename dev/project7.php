@@ -64,7 +64,7 @@
 						</section>
 						
 						<button class="project-magic-button magic-button btn filter-button" id="project-magic">
-							<a href="projects/php-students-database/index.php">View Live</a>
+							<a href="projects/php-students-database/index.php" target="_blank">View Live</a>
 						</button>
 					</div>
 					<?php 
