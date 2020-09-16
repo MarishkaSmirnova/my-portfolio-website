@@ -215,7 +215,7 @@
 			?>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
-		AOS.init({once:"true"});
+		AOS.init();
 		</script>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

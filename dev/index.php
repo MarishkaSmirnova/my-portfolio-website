@@ -120,7 +120,7 @@
 	<!--end of loading page code-->
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
-			AOS.init({once:"true"});
+			AOS.init();
 		</script>
 	</body>
 
