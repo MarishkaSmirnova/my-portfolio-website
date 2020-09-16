@@ -11,7 +11,9 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="project-me-left">
-						<section class="project-info left-section about-section" id="project">
+						<section class="project-info left-section about-section" 
+								id="project"
+								data-aos="zoom-in">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
 									<a href="project7.php" class="prev-button">
@@ -39,7 +41,9 @@
 							</div>
 							<img class="about-project-image" src="images/portfoliolaptop.jpg" alt="portfolio laptop view" class="projectpiece">
 						</section>
-						<section class="project-info left-section" id="design">
+						<section class="project-info left-section" 
+								id="design"
+								data-aos="zoom-in">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
 								<p>The first stage of designing process was to create sitemap with all the content I want to have on my website. After I created wireframes in Balsamiq in both mobile and desktop views, organized all content on each page, planned over all the functionality I want to have.</p>
@@ -49,7 +53,9 @@
 								<div><img src="images/portfoliodes2.jpg" alt="" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section" id="development">
+						<section class="project-info left-section" 
+								id="development"
+								data-aos="zoom-in">
 							<div class="project-textpart">
 								<h3>Development Process</h3>
 								<div class="sourse-code">
@@ -71,7 +77,7 @@
 				</div>
 
 				<div class="right-side">
-					<div class="project-right">
+					<div class="project-right" data-aos="zoom-in">
 						<h2>Project stages:</h2>
 						<div class="project-timeline timeline">
 							<div class="history-tl-container">
@@ -86,7 +92,6 @@
 										<a href="#development" class="item-title" id="link">Development process</a>
 									</li>
 								</ul>
-							
 							</div>
 						</div>
 					</div>
@@ -96,6 +101,10 @@
 		<?php 
 			include 'footer.php';
 			?>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({once:"true"});
+		</script>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 

@@ -11,7 +11,9 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="project-me-left">
-						<section class="project-info left-section about-section" id="project">
+						<section class="project-info left-section about-section" 
+								id="project"
+								data-aos="zoom-in">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
 									<a href="project4.php" class="prev-button">
@@ -35,7 +37,9 @@
 							</div>
 							<img class="about-project-image" src="images/phlaptop.jpg" alt="laptop photoshop project" class="projectpiece">
 						</section>
-						<section class="project-info left-section" id="design">
+						<section class="project-info left-section" 
+								id="design"
+								data-aos="zoom-in">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
 								<p>I made clean user friendly design with main accents on colouring pictures.</p>
@@ -48,7 +52,9 @@
 								<div><img src="images/photoshopdes4.png" alt="" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section" id="development">
+						<section class="project-info left-section" 
+								id="development"
+								data-aos="zoom-in">
 							<div class="project-textpart">
 								<h3>Development Process</h3>
 								<p>I’m planning to develop this website in future.</p>
@@ -66,7 +72,7 @@
 				</div>
 
 				<div class="right-side">
-					<div class="project-right">
+					<div class="project-right" data-aos="zoom-in">
 						<h2>Project stages:</h2>
 						<div class="project-timeline timeline">
 							<div class="history-tl-container">
@@ -90,6 +96,10 @@
 		<?php 
 			include 'footer.php';
 			?>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({once:"true"});
+		</script>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 

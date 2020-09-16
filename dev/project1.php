@@ -11,7 +11,9 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="project-me-left">
-						<section class="project-info left-section about-section" id="project">
+						<section class="project-info left-section about-section" 
+								data-aos="zoom-in" 
+								id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
 									<a href="project8.php" class="prev-button">
@@ -51,9 +53,11 @@
 									The design and development of this project provides a clean, easy to navigate, and mobile friendly site that is accessible by all devices.
 								</p>
 							</div>
-							<img class="about-project-image" src="images/jefflaptop.jpg" alt="client project laptop view" class="projectpiece">
+							<img class="about-project-image" src="images/jefflaptop.jpg" data-aos="zoom-in" alt="client project laptop view" class="projectpiece">
 						</section>
-						<section class="project-info left-section" id="design">
+						<section class="project-info left-section" 
+								id="design" 
+								data-aos="zoom-in">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
 								<p>After the meeting over Zoom, I made a note in Google Docs with all the info discussed and gave a client access to edit it to be sure that we’re on the same page and he can add his ideas and changes any time. I also made a Google file folder with possible color combination, sitemap of the website for approval and examples of ideas about future logo. The client provided the text and photos for the website. After some time I made a wireframes in InVision and design examples of the pages in Photoshop. As it happens a lot I guess, I got new photos from the client after that and we decided to change it dramatically and came up with the ideas that is now implemented.</p>
@@ -69,7 +73,9 @@
 								<div><img src="images/jeff-photoshop.jpg" alt="client project photoshop" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section" id="development">
+						<section class="project-info left-section" 
+									id="development"
+									data-aos="zoom-in">
 							<div class="project-textpart">
 								<h3>Development Process</h3>
 								<div class="sourse-code">
@@ -94,7 +100,7 @@
 				</div>
 
 				<div class="right-side">
-					<div class="project-right">
+					<div class="project-right" data-aos="zoom-in">
 						<h2>Project stages to choose:</h2>
 						<div class="project-timeline timeline">
 							<div class="history-tl-container">
@@ -122,6 +128,10 @@
 		<?php 
 			include 'footer.php';
 			?> 
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		 	AOS.init({once:"true"});
+		</script>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 

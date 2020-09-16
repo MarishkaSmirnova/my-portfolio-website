@@ -8,7 +8,7 @@
 		<main>
 			<div class="container">
 				<div class="left-side left-side-contact" id="left-side">
-					<div class="contact-left">
+					<div class="contact-left" data-aos="zoom-in">
 							<p class="greering-text">If you have any questions or comments, feel free to contact me!</p>
 							<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
 							<p>(604) 499 1172</p>
@@ -21,7 +21,12 @@
 								<img src="images/github-logo.png" alt="gitHub">
 							</a>
 					</div>
-					<form action="contact-form.php" method="post" name="intro" class="form-intro" id="form-intro">
+					<form action="contact-form.php" 
+							method="post" 
+							name="intro" 
+							class="form-intro" 
+							id="form-intro"
+							data-aos="zoom-in">
 						<div class="basic-info">
 							<h2 class="form-title">
 								<div class="circle1">.</div>Feel free to contact me!
@@ -96,7 +101,10 @@
 			</div> 
 		</main>
 		 <?php include 'footer.php'; ?> 
-
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		AOS.init({once:"true"});
+		</script>
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="scripts/filter.js"></script>

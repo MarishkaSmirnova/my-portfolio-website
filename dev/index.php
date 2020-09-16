@@ -1,38 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- <?php 
+	<?php 
 		include 'head.php';
-		?> -->
-	<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142146623-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-142146623-1');
-    </script>
-    <meta charset="UTF-8">
-	<meta name="viewport" 
-			content="width=device-width, initial-scale=1.0">
-	<meta name="description" 
-		content="Hello, I’m Marina Smirnova. I'm a Web Designer and Developer based in Vancouver, British Columbia. I create modern web designs and write accurate, accessible, and SEO friendly code. I'm right along in a process of learning and trying new technologies and can easily adapt myself to project needs.">
-	<meta http-equiv="X-UA-Compatible" 
-			content="ie=edge">
-	<link rel="icon" 
-			type="image/png" 
-			href="images/favicon.png">
-    <title>Marina Smirnova | Web Design and Development</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:700i&display=swap" rel="stylesheet">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<link rel="stylesheet" href="slick/slick/slick.css">
-	<link rel="stylesheet" href="slick/slick/slick-theme.css">
-	<link rel="stylesheet" href="styles/styles.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
-	<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>	
-</head>	
+		?>
 	<body onload="myFunction()">
 		<div class="all-main-page" id="main" style="display:none;">
 			<?php 
@@ -41,7 +11,7 @@
 			<main >
 				<div class="container">
 					<div class="left">
-						<div class="home-main-info">
+						<div class="home-main-info" data-aos="zoom-in">>
 							<h2 class="email-title">
 								<div class="circle1">.</div>
 								<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
@@ -56,7 +26,7 @@
 							<a class="hompage-project-link" href="project1.php">  
 								<p>Website for</br> the lawyer</p>
 								<div class="project-image image3">
-									<img  src="images/jeff-front.png" alt="project wordpress web developer vancouver">
+									<img  src="images/jeff-front.png" data-aos="zoom-in" lt="project wordpress web developer vancouver">
 									<img class="img-top" src="images/jeff.png" alt="project web developer vancouver">
 								</div>		
 							</a> 
@@ -65,7 +35,7 @@
 							<a class="hompage-project-link" href="project2.php">  
 								<p>BCIT React<br> course projects</p>
 								<div class="project-image image">
-									<img  src="images/girl-front.png" alt="project wordpress web developer vancouver">
+									<img  src="images/girl-front.png" data-aos="zoom-in" alt="project wordpress web developer vancouver">
 									<img class="img-top" src="images/girl.png" alt="project web developer vancouver">
 								</div>		
 							</a> 
@@ -74,7 +44,7 @@
 							<a class="hompage-project-link" href="project3.php">  
 								<p>AOT program </br>students website</p>
 								<div class="project-image image">
-									<img  src="images/paperclip-front.png" alt="project wordpress web developer vancouver">
+									<img  src="images/paperclip-front.png" data-aos="zoom-in" alt="project wordpress web developer vancouver">
 									<img class="img-top" src="images/paperclip.png" alt="project web developer vancouver">
 								</div>
 							</a> 
@@ -83,7 +53,7 @@
 							<a class="hompage-project-link" href="project4.php">  
 								<p>JavaScript</br> Color Game</p>
 								<div class="project-image image2">
-									<img  src="images/rbggame-front.png" alt="javascript project web developer vancouver">
+									<img  src="images/rbggame-front.png" data-aos="zoom-in" alt="javascript project web developer vancouver">
 									<img class="img-top" src="images/rbggame1.png" alt="bcit project web developer vancouver">
 								</div>
 							</a> 
@@ -101,7 +71,7 @@
 							<a class="hompage-project-link" href="project6.php">  
 								<p>Photoshop</br> Web Design</p>
 								<div class="project-image image">
-									<img  src="images/background-front.png" alt="photoshop project web developer vancouver">
+									<img  src="images/background-front.png" data-aos="zoom-in" alt="photoshop project web developer vancouver">
 									<img class="img-top" src="images/background.png" alt="photoshop project web developer vancouver">
 								</div>
 							</a> 
@@ -110,7 +80,7 @@
 							<a class="hompage-project-link" href="project7.php">  
 								<p>PHP Database</p>
 								<div class="project-image image2">
-									<img  src="images/php-front.png" alt="php project web developer vancouver">
+									<img  src="images/php-front.png" data-aos="zoom-in" alt="php project web developer vancouver">
 									<img class="img-top" src="images/php.png" alt="bcit php project web developer vancouver">
 								</div>
 							</a> 
@@ -119,7 +89,7 @@
 							<a class="hompage-project-link" href="project8.php">  
 								<p>Portfolio</br> Website</p>
 								<div class="project-image image">
-									<img  src="images/heart-front.jpg" alt="javascript sass project web developer vancouver">
+									<img  src="images/heart-front.jpg" data-aos="zoom-in" alt="javascript sass project web developer vancouver">
 									<img class="img-top" src="images/heart.jpg" alt="javascript sass project web developer vancouver">
 								</div>
 							</a> 
@@ -146,8 +116,12 @@
 		<div class="spinner" id="spinner">
 			<div class="dot1"></div>
 			<div class="dot2"></div>
-	</div>
+	    </div>
 	<!--end of loading page code-->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({once:"true"});
+		</script>
 	</body>
 
 </html>

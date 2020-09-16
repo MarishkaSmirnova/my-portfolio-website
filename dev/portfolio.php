@@ -50,7 +50,7 @@
 								</a>
 							</div>
 		<!-- PROJECT 2                    -->   
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js" data-aos="zoom-in"> 
 								<a href="project2.php" class="project-link filterDiv react invision portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/react-main.png" alt=" bcit landing page marina smirnova">
@@ -67,7 +67,7 @@
 								</a>
 							</div>
 		<!-- PROJECT 3                    --> 
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js" data-aos="zoom-in"> 
 								<a href="project3.php" class="project-link filterDiv js php jquery sass balsamiq google">
 									<figure>
 										<img class="project-image" src="images/oat-main.png" alt="client project bcit oat">
@@ -86,7 +86,7 @@
 								</a>
 							</div>
 		<!-- PROJECT 4                    -->  
-							<div class="portfolio-item react"> 
+							<div class="portfolio-item react" data-aos="zoom-in"> 
 								<a href="project4.php" class="project-link filterDiv js portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/jsdesign1.png" alt="java script project">
@@ -118,7 +118,7 @@
 								</a>
 							</div> -->
 		<!-- PROJECT 6                    -->  
-							<div class="portfolio-item photoshop"> 
+							<div class="portfolio-item photoshop" data-aos="zoom-in"> 
 								<a href="project6.php" class="project-link filterDiv photoshop ">
 								<figure>
 									<img class="project-image" src="images/photoshop.png" alt="photoshop project web design marina smirnova">
@@ -132,7 +132,7 @@
 								</a>
 							</div>
 		<!-- PROJECT 7					 -->
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js" data-aos="zoom-in"> 
 								<a href="project7.php" class="project-link filterDiv php portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/php-main.jpg" alt="php project marina smirnova">
@@ -149,7 +149,7 @@
 								</a>
 							</div>
 		<!-- PROJECT 8 -->
-							<div class="portfolio-item ">                       
+							<div class="portfolio-item" data-aos="zoom-in">                       
 								<a href="project8.php" class="project-link filterDiv sass js php jquery balsamiq google">
 									<figure>
 										<img class="project-image" src="images/portfolio-main.png" alt="portfolio site image">
@@ -196,6 +196,10 @@
 		<?php 
 			include 'footer.php';
 			?>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		AOS.init({once:"true"});
+		</script>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="scripts/filter.js"></script>

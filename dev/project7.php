@@ -12,7 +12,9 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="project-me-left">
-						<section class="project-info left-section about-section" id="project">
+						<section class="project-info left-section about-section" 
+									id="project"
+									data-aos="zoom-in">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
 									<a href="project6.php" class="prev-button">
@@ -38,7 +40,9 @@
 							</div>
 							<img class="about-project-image" src="images/phplaptop.jpg" alt="client project laptop view" class="projectpiece">
 						</section>
-						<section class="project-info left-section" id="design">
+						<section class="project-info left-section" 
+									id="design"
+									data-aos="zoom-in">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
 								<p>Design part were given to copy from instructor’s example.</p>
@@ -47,7 +51,9 @@
 								<div><img src="images/php-design.jpg" alt="php design" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section" id="development">
+						<section class="project-info left-section" 
+								id="development"
+								data-aos="zoom-in">
 							<div class="project-textpart">
 								<h3>Development Process</h3>
 								<div class="sourse-code">
@@ -63,7 +69,9 @@
 							</div>
 						</section>
 						
-						<button class="project-magic-button magic-button btn filter-button" id="project-magic">
+						<button class="project-magic-button magic-button btn filter-button" 
+								id="project-magic"
+								data-aos="zoom-in">
 							<a href="projects/php-students-database/index.php" target="_blank">View Live</a>
 						</button>
 					</div>
@@ -73,7 +81,7 @@
 				</div>
 
 				<div class="right-side">
-					<div class="project-right">
+					<div class="project-right" data-aos="zoom-in">
 						<h2>Project stages to choose:</h2>
 						<div class="project-timeline timeline">
 							<div class="history-tl-container">
@@ -100,6 +108,10 @@
 		<?php 
 			include 'footer.php';
 			?>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({once:"true"});
+		</script>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 

@@ -14,7 +14,7 @@
 							<section class="about-info left-section" id="about">
 								<div class="about-me-text">
 									<h3>About me</h3>
-									<div class="about-me-wrapper">
+									<div class="about-me-wrapper" data-aos="zoom-in">
 										<img class="myphoto-ontheright" src="images/marina_smirnova.jpg" alt="marina smirnova web designer developer">
 										<p>I’ve always been enthusiastic about interacting with computer technologies. I’ve been writing code since my early days of middle school when I was using Q-Basic and Pascal to create simple games. Years after I found myself playing around with WordPress from time to time, and learning HTML and CSS just out of the fun.</p>
 										<p>I became interested in programming and started studying JavaScript. After moving to Canada I made an important decision to switch my career from sales and marketing to web development. I completed with distinction 2 courses in British Columbia Technological University: Technical Web Design and React and Modern JavaScript. </p>
@@ -24,7 +24,7 @@
 							</section>
 							<section class="about-skills left-section" id="skills">
 								<h3>Skills</h3>
-								<div class="all-cards">
+								<div class="all-cards" data-aos="zoom-in">
 									<div class="card-container">
 										<div class="card">
 											<a href="#0">
@@ -127,7 +127,7 @@
 								<div>
 									<h3>Work flow</h3>
 									<div class="work-flow-items">
-										<div class="container-work-flow">
+										<div class="container-work-flow" data-aos="zoom-in">
 												<div class="items">
 													<div class="icon-wrapper">
 														<i class="fab fa-google"></i>
@@ -184,7 +184,7 @@
 					</div> <!--enf of left-side-->
 					<div class="right-side">
 					<div class="about-me-right">
-						<img src="images/marina_smirnova.jpg" alt="marina smirnova create website">
+						<img src="images/marina_smirnova.jpg" data-aos="zoom-in" alt="marina smirnova create website">
 						<div class="about-timeline">
 							<div class="history-tl-container">
 								<ul class="tl">
@@ -213,6 +213,10 @@
 		<?php 
 			include 'footer.php';
 			?>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		AOS.init({once:"true"});
+		</script>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="scripts/scroll-btn.js"></script>
