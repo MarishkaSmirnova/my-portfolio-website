@@ -10,8 +10,8 @@
 				?>
 			<main>
 				<div class="container">
-					<div class="left">
-						<div class="home-main-info animate__animated animate__zoomIn">
+					<div class="left animate__animated animate__zoomIn ">
+						<div class="home-main-info ">
 							<h2 class="email-title">
 								<div class="circle1">.</div>
 								<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
