@@ -10,7 +10,7 @@
 		<main>
 			<div class="container">
 				<div class="left-side" id="left-side">
-					<div class="portfolio-left">
+					<div class="portfolio-left animate__animated animate__zoomIn">
 						<h2>Projects:</h2>
 						<div class="portfolio-left-filter">
 							<h2>Tools filter:</h2>
@@ -177,7 +177,7 @@
 				</div>
 			
 				<div class="right-side">
-					<div class="portfolio-right" id="myBtnContainer">
+					<div class="portfolio-right animate__animated animate__zoomIn animate__delay-1s" id="myBtnContainer">
 						<h2>Tools filter:</h2>
 						<button class="btn filter-button active" onclick="filterSelection('all')"> See All</button>
 						<button class="btn filter-button" onclick="filterSelection('sass')">SASS</button>
@@ -196,11 +196,6 @@
 		<?php 
 			include 'footer.php';
 			?>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init();
-			window.addEventListener('load', AOS.refresh)
-		</script>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="scripts/filter.js"></script>

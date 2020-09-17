@@ -11,9 +11,8 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="project-me-left">
-						<section class="project-info left-section about-section" 
-									id="project"
-									data-aos="zoom-in">
+						<section class="project-info left-section about-section animate__animated animate__zoomIn" 
+									id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
 									<a href="project2.php" class="prev-button">
@@ -41,9 +40,8 @@
 							</div>
 							<img class="about-project-image" src="images/oat-laptop.jpg" alt="client project laptop view" class="projectpiece">
 						</section>
-						<section class="project-info left-section" 
-								id="design"
-								data-aos="zoom-in">
+						<section class="project-info left-section animate__animated animate__zoomIn" 
+								id="design">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
 								<p>After our meeting we mapped out the content she wanted on it, and made wireframes in Balsamiq to demonstrate the content arrangement. We also prepared a lot of examples with website designs to learn client’s design preferences. Next step was the creation of design prototype in Photoshop and after matching clients wishes the coding part has started.</p>
@@ -56,9 +54,8 @@
 								<div><img src="images/clientdes1.png" alt="" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section" 
-								id="development"
-								data-aos="zoom-in">
+						<section class="project-info left-section animate__animated animate__zoomIn" 
+								id="development">
 							<div class="project-textpart">
 								<h3>Development Process</h3>
 								<div class="sourse-code">
@@ -75,9 +72,8 @@
 							</div>
 						</section>
 						
-						<button class="project-magic-button magic-button btn filter-button" 
-								id="project-magic"
-								data-aos="zoom-in">
+						<button class="project-magic-button magic-button btn filter-button animate__animated animate__zoomIn" 
+								id="project-magic">
 							<a href="http://oatprogram.bcitwebdeveloper.ca/" target="_blank">View Live</a>
 						</button>
 					</div>
@@ -87,7 +83,7 @@
 				</div>
 
 				<div class="right-side">
-					<div class="project-right" data-aos="zoom-in">
+					<div class="project-right animate__animated animate__zoomIn animate__delay-1s">
 						<h2>Project stages to choose:</h2>
 						<div class="project-timeline timeline">
 							<div class="history-tl-container">
@@ -113,11 +109,7 @@
 		</main>
 		<?php 
 			include 'footer.php';
-			?>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init({once:"true"});
-		</script>	
+			?>	
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 

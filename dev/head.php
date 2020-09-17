@@ -21,7 +21,6 @@
     <title>Marina Smirnova | Web Design and Development</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:700i&display=swap" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 	<link rel="stylesheet" href="slick/slick/slick.css">
 	<link rel="stylesheet" href="slick/slick/slick-theme.css">
 	<link rel="stylesheet" href="styles/styles.css">

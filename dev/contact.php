@@ -8,7 +8,7 @@
 		<main>
 			<div class="container">
 				<div class="left-side left-side-contact" id="left-side">
-					<div class="contact-left" data-aos="zoom-in">
+					<div class="contact-left animate__animated animate__zoomIn">
 							<p class="greering-text">If you have any questions or comments, feel free to contact me!</p>
 							<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
 							<p>(604) 499 1172</p>
@@ -24,9 +24,8 @@
 					<form action="contact-form.php" 
 							method="post" 
 							name="intro" 
-							class="form-intro" 
-							id="form-intro"
-							data-aos="zoom-in">
+							class="form-intro animate__animated animate__zoomIn animate__delay-1s" 
+							id="form-intro">
 						<div class="basic-info">
 							<h2 class="form-title">
 								<div class="circle1">.</div>Feel free to contact me!
@@ -101,10 +100,6 @@
 			</div> 
 		</main>
 		 <?php include 'footer.php'; ?> 
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-		AOS.init();
-		</script>
 		<script src="scripts/script-menu-overlay.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="scripts/filter.js"></script>

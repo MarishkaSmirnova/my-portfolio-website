@@ -8,10 +8,10 @@
 			<?php 
 				include 'header.php';
 				?>
-			<main >
+			<main>
 				<div class="container">
 					<div class="left">
-						<div class="home-main-info" data-aos="zoom-in">>
+						<div class="home-main-info animate__animated animate__zoomIn">
 							<h2 class="email-title">
 								<div class="circle1">.</div>
 								<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
@@ -23,7 +23,7 @@
 					</div>
 					<div class="right">
 						<div class="home-project_box">
-							<a class="hompage-project-link" href="project1.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn" href="project1.php">  
 								<p>Website for</br> the lawyer</p>
 								<div class="project-image image3">
 									<img  src="images/jeff-front.png" data-aos="zoom-in" lt="project wordpress web developer vancouver">
@@ -32,7 +32,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box">
-							<a class="hompage-project-link" href="project2.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn" href="project2.php">  
 								<p>BCIT React<br> course projects</p>
 								<div class="project-image image">
 									<img  src="images/girl-front.png" data-aos="zoom-in" alt="project wordpress web developer vancouver">
@@ -41,7 +41,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box1">
-							<a class="hompage-project-link" href="project3.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn" href="project3.php">  
 								<p>AOT program </br>students website</p>
 								<div class="project-image image">
 									<img  src="images/paperclip-front.png" data-aos="zoom-in" alt="project wordpress web developer vancouver">
@@ -50,7 +50,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box3">
-							<a class="hompage-project-link" href="project4.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn" href="project4.php">  
 								<p>JavaScript</br> Color Game</p>
 								<div class="project-image image2">
 									<img  src="images/rbggame-front.png" data-aos="zoom-in" alt="javascript project web developer vancouver">
@@ -68,7 +68,7 @@
 							</a> 
 						</div> -->
 						<div class="home-project_box box5">
-							<a class="hompage-project-link" href="project6.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn" href="project6.php">  
 								<p>Photoshop</br> Web Design</p>
 								<div class="project-image image">
 									<img  src="images/background-front.png" data-aos="zoom-in" alt="photoshop project web developer vancouver">
@@ -77,7 +77,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box4">
-							<a class="hompage-project-link" href="project7.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn" href="project7.php">  
 								<p>PHP Database</p>
 								<div class="project-image image2">
 									<img  src="images/php-front.png" data-aos="zoom-in" alt="php project web developer vancouver">
@@ -86,7 +86,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box6">
-							<a class="hompage-project-link" href="project8.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn" href="project8.php">  
 								<p>Portfolio</br> Website</p>
 								<div class="project-image image">
 									<img  src="images/heart-front.jpg" data-aos="zoom-in" alt="javascript sass project web developer vancouver">
@@ -118,11 +118,6 @@
 			<div class="dot2"></div>
 	    </div>
 	<!--end of loading page code-->
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init();
-			window.addEventListener('load', AOS.refresh)
-		</script>
 	</body>
 
 </html>
