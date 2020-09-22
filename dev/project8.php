@@ -59,7 +59,7 @@
 									<i class="fab fa-github"></i>
 									<a href="https://github.com/MarishkaSmirnova/my-portfolio-website" target="_blank">sourse code</a>
 								</div>
-								<p>During developing process I brought to live my ideas about half page scrolling, filtering and slider show functionality.</p>
+								<p>During developing process I brought to live my ideas about half page scrolling, filtering and slider show functionality.For animation I used Animate.css library and wrote contact form using PHP.</p>
 							</div>
 							<div class="slick-slider">
 								<div><img src="images/portfoliodev1.png" alt="portfolio development code snippet" class="projectpiece"></div>
