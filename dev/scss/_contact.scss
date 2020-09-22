@@ -40,8 +40,7 @@ label {
 			text-align: center;
 			input {
 				background-color: $sky;
-			}
-			
+			}	
 		}
 	}
 }
@@ -49,7 +48,7 @@ label {
 //LEFT SIDE
 .left-side-contact {
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	.contact-left {
 		text-align: center;
 		margin: 20px 0;
@@ -62,24 +61,24 @@ label {
 	}
 }
 .form-and-social-wrapper {
-  display:flex;
+  display: flex;
 }
 .contact-left {
 	p {
 		font-size: 15px;
 	}
 	a {
-		font-size:14px;
+		font-size: 14px;
 		img {
-			width:50px;
+			width: 50px;
 		}
 	}
 }
 .location{
-  display:flex;
+  display:  flex;
 }
 .error {
-  color:$bright_coral;
+  color: $bright_coral;
 }
 .thankyou {
   color:$sky;
