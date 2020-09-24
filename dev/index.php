@@ -108,7 +108,7 @@
 			<script src="scripts/loading-page.js"></script>
 			<script src="scripts/script-menu-overlay.js"></script>
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		
+			<script src="scripts/scroll-btn.js"></script>
 		</div> <!--end of all-main-page-->
 		<!--loading page code-->
 		<div class="spinner" id="spinner">
