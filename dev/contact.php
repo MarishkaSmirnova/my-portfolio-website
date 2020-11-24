@@ -11,6 +11,7 @@
 					<div class="contact-left animate__animated animate__zoomIn">
 							<p class="greering-text">If you have any questions or comments, feel free to contact me!</p>
 							<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
+							<br>
 							<!-- <p><i class="fas fa-map-marker-alt"></i></p> -->
 							<!-- <p><i class="fas fa-map-marker-alt"></i>Vancouver, Beautiful British Columbia :)</p>  -->
 							<a href="https://www.linkedin.com/in/marina-smirnova-4a0a9a114/?locale=en_US">
