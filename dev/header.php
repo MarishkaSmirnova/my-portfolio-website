@@ -5,10 +5,10 @@
 				<a href="index.php">
 					<img src="images/LOgo.png" class="logo" alt="marina smirnova logo">
 				</a>
-				<a href="index.php" class="text-logo">
+				<!-- <a href="index.php" class="text-logo">
 					<h1>Marina Smirnova</h1>
 					<h2>Web Design & Development</h2>
-				</a>
+				</a> -->
 			</div>
 			<!--end of logo-->
 			<!-- popup-content -->
