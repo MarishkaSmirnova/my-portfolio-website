@@ -42,17 +42,18 @@
 		justify-content: center;
         align-items: center;
         a {
-			font-size:16px;
+			font-size: 16px;
+			text-transform: lowercase;
 			padding-left: 3px;
         }
     }
     h1 {
-		font: 399 50px/60px 'open sans';
+		font: 399 50px/80px 'open sans';
 		text-transform: uppercase;
 		text-align: center;
 	}
 	h2 {
-		font: 399 40px/60px 'open sans';
+		font: 399 30px/40px 'open sans';
 		text-transform: uppercase;
 	 	text-align: center;
 	}
@@ -162,8 +163,8 @@
 @media screen and (min-width: $desktopLarge) {
 	.home-main-info {
 		text-align: center;
-		.email-title {
-			flex-flow: column;
-		}
+		// .email-title {
+		// 	flex-flow: column;
+		// }
 	}
 }

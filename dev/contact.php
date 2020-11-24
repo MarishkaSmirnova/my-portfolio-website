@@ -11,14 +11,16 @@
 					<div class="contact-left animate__animated animate__zoomIn">
 							<p class="greering-text">If you have any questions or comments, feel free to contact me!</p>
 							<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
-							<p>(604) 499 1172</p>
-							<p><i class="fas fa-map-marker-alt"></i></p>
-							<p>Vancouver, Beautiful British Columbia :)</p> 
+							<!-- <p><i class="fas fa-map-marker-alt"></i></p> -->
+							<!-- <p><i class="fas fa-map-marker-alt"></i>Vancouver, Beautiful British Columbia :)</p>  -->
 							<a href="https://www.linkedin.com/in/marina-smirnova-4a0a9a114/?locale=en_US">
 								<img src="images/linkedin-logo.png" alt="linkedIn link">
 							</a>
 							<a href="https://github.com/MarishkaSmirnova">
 								<img src="images/github-logo.png" alt="gitHub">
+							</a>
+							<a href="https://twitter.com/MarinaSmirnov7">
+								<img src="images/twitter.png" alt="gitHub">
 							</a>
 					</div>
 					<form action="contact-form.php" 
