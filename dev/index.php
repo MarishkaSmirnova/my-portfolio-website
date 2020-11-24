@@ -16,7 +16,9 @@
 								<div class="circle1">.</div>
 								<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
 							</h2>
-							<h1 class="main-title animated fadeIn">Hello, I'm Marina <br> web developer & designer <br> based in Vancouver, BC</h1>
+							<h1 class="animated fadeIn">Hello, I'm Marina <br> web developer & designer</h1>
+							<h2 class="animated fadeIn">based in Vancouver,BC </h2>
+							<p> based in Vancouver, BC</p>
 							<!-- <p class="animated backInDown">I'm a digital marketer who generates ideas and put it into beautiful and crafted web experiences.</p> -->
 						</div>
 						
