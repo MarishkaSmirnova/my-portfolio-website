@@ -11,7 +11,7 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="project-me-left">
-						<section class="project-info left-section about-section animate__animated animate__zoomIn" 
+						<section class="project-info left-section about-section animate__animated animate__fadeIn" 
 								id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
@@ -54,7 +54,7 @@
 							</div>
 							<img class="about-project-image" src="images/jefflaptop.jpg" data-aos="zoom-in" alt="client project laptop view" class="projectpiece">
 						</section>
-						<section class="project-info left-section animate__animated animate__zoomIn" 
+						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
@@ -71,7 +71,7 @@
 								<div><img src="images/jeff-photoshop.jpg" alt="client project photoshop" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section animate__animated animate__zoomIn" 
+						<section class="project-info left-section animate__animated animate__fadeIn" 
 									id="development">
 							<div class="project-textpart">
 								<h3>Development Process</h3>
@@ -87,7 +87,7 @@
 							</div>
 						</section>
 						
-						<button class="project-magic-button magic-button btn filter-button animate__animated animate__zoomIn" id="project-magic">
+						<button class="project-magic-button magic-button btn filter-button animate__animated animate__slideInUp" id="project-magic">
 							<a href="projects/Jeff/dev/index.html" target="_blank">View Live</a>
 						</button>
 					</div>
@@ -97,7 +97,7 @@
 				</div>
 
 				<div class="right-side">
-					<div class="project-right animate__animated animate__zoomIn animate__delay-1s">
+					<div class="project-right animate__animated animate__fadeIn animate__delay-1s">
 						<h2>Project stages to choose:</h2>
 						<div class="project-timeline timeline">
 							<div class="history-tl-container">

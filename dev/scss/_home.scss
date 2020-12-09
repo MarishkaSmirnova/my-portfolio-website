@@ -17,12 +17,12 @@
     padding: .5rem;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
-    height:calc(100vh - 167px);
+    height: calc(100vh - 118px);
 }
 
 .left {
     flex: 3;
-    padding-top: 10%;
+    padding-top: 6%;
     padding-left: 20px;
 }
 .right {
@@ -48,12 +48,12 @@
         }
     }
     h1 {
-		font: 399 50px/80px 'open sans';
+		font: 399 30px/60px 'open sans';
 		text-transform: uppercase;
 		text-align: center;
 	}
 	h2 {
-		font: 399 30px/40px 'open sans';
+		font: 399 10px/20px 'open sans';
 		text-transform: uppercase;
 	 	text-align: center;
 	}
@@ -135,6 +135,18 @@
 }
 //420
 @media screen and (min-width: $phonePixel){  
+	.home-main-info {
+		h1 {
+			font: 399 50px/80px 'open sans';
+			text-transform: uppercase;
+			text-align: center;
+		}
+		h2 {
+			font: 399 30px/40px 'open sans';
+			text-transform: uppercase;
+			 text-align: center;
+		}
+	}
     .right{
         display:block;
     }

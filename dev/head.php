@@ -12,7 +12,7 @@
 	<meta name="viewport" 
 			content="width=device-width, initial-scale=1.0">
 	<meta name="description" 
-		content="Hello, I’m Marina Smirnova. I'm a Web Designer and Developer based in Vancouver, British Columbia. I create modern web designs and write accurate, accessible, and SEO friendly code. I'm right along in a process of learning and trying new technologies and can easily adapt myself to project needs.">
+		content="Hello, I’m Marina Smirnova. I'm Front-end developer based in Vancouver, BC. I create modern web designs and write accurate, accessible, and SEO friendly code. I'm right along in a process of learning and trying new technologies and can easily adapt myself to project needs.">
 	<meta http-equiv="X-UA-Compatible" 
 			content="ie=edge">
 	<link rel="icon" 

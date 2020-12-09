@@ -92,17 +92,18 @@ figcaption {
 }
 .btn {
     border-radius: 2px;
-    border: none;
+    border: 1px solid black;
     height: 45px;
-    width:150px;
-    padding: 0;
-    margin-bottom: 5px;  
+    width: 146px;
+    padding: 10px;
+    margin-bottom: 10px;  
 }
   /* Style the filter buttons */
 .filter-button {
-    background-color: #7b717147;
+    // background-color: #7b717147;
     color: $black;
-    transition: .3s ease;
+	transition: .3s ease;
+	font-size: 12px;
     &:hover {
 		color: $black;
 		transition: .2s ease;

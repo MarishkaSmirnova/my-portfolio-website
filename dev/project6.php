@@ -11,7 +11,7 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="project-me-left">
-						<section class="project-info left-section about-section animate__animated animate__zoomIn" 
+						<section class="project-info left-section about-section animate__animated animate__fadeIn" 
 								id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
@@ -36,7 +36,7 @@
 							</div>
 							<img class="about-project-image" src="images/phlaptop.jpg" alt="laptop photoshop project" class="projectpiece">
 						</section>
-						<section class="project-info left-section animate__animated animate__zoomIn" 
+						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
 								<h3>Design Process</h3>
@@ -50,7 +50,7 @@
 								<div><img src="images/photoshopdes4.png" alt="" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section animate__animated animate__zoomIn" 
+						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
 								<h3>Development Process</h3>
@@ -69,7 +69,7 @@
 				</div>
 
 				<div class="right-side">
-					<div class="project-right animate__animated animate__zoomIn animate__delay-1s">
+					<div class="project-right animate__animated animate__fadeIn animate__delay-1s">
 						<h2>Project stages:</h2>
 						<div class="project-timeline timeline">
 							<div class="history-tl-container">
