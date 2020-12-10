@@ -18,7 +18,7 @@
 									<img class="myphoto-ontheright" src="images/marina_smirnova.jpg" alt="marina smirnova web designer developer">
 									<p>I’ve always been enthusiastic about interacting with computer technologies. I’ve been writing code since my early days of middle school when I was using Q-Basic and Pascal to create simple games. Years after I found myself playing around with WordPress from time to time, and learning HTML and CSS just out of the fun.</p>
 									<p>I became interested in programming and started studying JavaScript. After moving to Canada I made an important decision to switch my career from sales and marketing to web development. I completed with distinction 2 courses in British Columbia Technological University: Technical Web Design and React and Modern JavaScript. </p>
-									<p>After graduation, I’ve challenged myself to spend some time developing web sites on my own and gain valuable hands-on experience. This experience gave me confidence in the choice I’ve made, the knowledge I have, and I got determent to make valuable contributions in the web world.</p>
+									<p>After graduation, I’ve challenged myself to spend some time developing websites on my own and gained valuable hands-on experience. This experience gave me confidence in the choice I’ve made, the knowledge I have, and I got determent to make valuable contributions in the web world.</p>
 								</div>
 							</div>
 						</section>
@@ -37,9 +37,8 @@
 													<li>SASS</li>
 													<li>Bootstrap</li>
 													<li>JavaScript</li>
-													<li>React</li>
+													<li>React.js</li>
 													<li>jQuery</li>
-													<li>React</li>
 													<li>PHP7</li>
 												</ul>
 											</div>
@@ -173,7 +172,7 @@
 							</div>
 						</section>
 						<button class="about-magic-button magic-button btn filter-button animate__animated animate__zoomIn">
-							<a href="mailto:hello@msmirnova.ca">Let's make something amazing together!</a>
+							<a href="mailto:hello@msmirnova.ca">Contact me</a>
 						</button>
 					</div><!--end of about-me-left-->
 					<div class="wrapper-scroll-button">
@@ -198,7 +197,7 @@
 									<a href="#work" class="item-title" id="link">Work flow</a>
 								</li>
 								<li class="tl-item test4">
-									<a href="#about-magic" class="item-title" id="link">Magic button</a>
+									<a href="#about-magic" class="item-title" id="link">Contact me</a>
 								</li>
 								</ul>
 							</div>

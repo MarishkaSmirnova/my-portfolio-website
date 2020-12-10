@@ -10,7 +10,7 @@
 		<main>
 			<div class="container">
 				<div class="left-side" id="left-side">
-					<div class="portfolio-left animate__animated animate__fadeIn">
+					<div class="portfolio-left animate__animated animate__zoomIn">
 						<h2>Projects:</h2>
 						<div class="portfolio-left-filter">
 							<h2>Tools filter:</h2>
@@ -177,7 +177,7 @@
 				</div>
 			
 				<div class="right-side">
-					<div class="portfolio-right animate__animated animate__fadeIn animate__delay-1s" id="myBtnContainer">
+					<div class="portfolio-right animate__animated animate__zoomIn animate__delay-1s" id="myBtnContainer">
 						<h2>Tools filter:</h2>
 						<button class="btn filter-button active" onclick="filterSelection('all')"> See All</button>
 						<button class="btn filter-button" onclick="filterSelection('sass')">SASS</button>

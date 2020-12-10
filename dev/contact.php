@@ -9,11 +9,11 @@
 			<div class="container">
 				<div class="left-side left-side-contact" id="left-side">
 					<div class="contact-left animate__animated animate__zoomIn">
-							<p class="greering-text">If you have any questions or comments, feel free to contact me!</p>
 							<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
-							<br>
+							<p class="greering-text">If you have any questions or comments, feel free to contact me!</p>
 							<!-- <p><i class="fas fa-map-marker-alt"></i></p> -->
 							<!-- <p><i class="fas fa-map-marker-alt"></i>Vancouver, Beautiful British Columbia :)</p>  -->
+							<br>
 							<a href="https://www.linkedin.com/in/marina-smirnova-4a0a9a114/?locale=en_US">
 								<img src="images/linkedin-logo.png" alt="linkedIn link">
 							</a>
@@ -27,9 +27,9 @@
 					<form action="contact-form.php" 
 							method="post" 
 							name="intro" 
-							class="form-intro animate__animated animate__zoomIn animate__delay-1s" 
+							class="form-intro" 
 							id="form-intro">
-						<div class="basic-info">
+						<div class="basic-info" class="animate__animated animate__zoomIn animate__delay-1s">
 							<h2 class="form-title">
 								<div class="circle1">.</div>Feel free to contact me!
 							</h2>

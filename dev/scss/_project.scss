@@ -36,6 +36,7 @@
 			display: inline-block;
 			margin-bottom: 40px;
 			font-size: 24px;
+			margin-top: 60px;
 		}
 		h3:not:first-child {
 			margin-top: 40px;
@@ -193,6 +194,7 @@
 		}
 	}
 }
+//1800
 @media screen and (min-width: $desktopLarge) {
 	.slick-slider {
 		width: 60%;
@@ -201,6 +203,12 @@
 	.project-info {
 		.project-textpart {
 			margin: 0 100px 0 100px;
+		}
+	}
+	.home-project_box  {
+		.hompage-project-link {
+			flex-direction: row;
+			padding:10%;
 		}
 	}
 }
