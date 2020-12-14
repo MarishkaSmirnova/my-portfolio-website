@@ -18,6 +18,17 @@
 							</h2>
 							<h1 class="animated fadeIn">Hello, I'm Marina <br>web developer & <br>UX designer</h1>
 							<h2 class="animated fadeIn">based in Vancouver, BC</h2>
+							<div class="social-media-links"> 
+								<a href="https://www.linkedin.com/in/marina-smirnova-4a0a9a114/?locale=en_US">
+									<img src="images/linkedin-logo.png" alt="linkedIn link">
+								</a>
+								<a href="https://github.com/MarishkaSmirnova">
+									<img src="images/github-logo.png" alt="gitHub">
+								</a>
+								<a href="https://twitter.com/MarinaSmirnov7">
+									<img src="images/twitter.png" alt="gitHub">
+								</a>
+							</div>
 							<!-- <p class="animated backInDown">I'm a digital marketer who generates ideas and put it into beautiful and crafted web experiences.</p> -->
 						</div>
 						
@@ -25,7 +36,7 @@
 					<div class="right">
 						<div class="home-project_box">
 							<a class="hompage-project-link animate__animated animate__zoomIn" href="project1.php">  
-								<p>website for</br> the lawyer</p>
+								<p>website for</br>the lawyer</p>
 								<div class="project-image image3">
 									<img  src="images/jeff-front.png" data-aos="zoom-in" lt="project wordpress web developer vancouver">
 									<img class="img-top" src="images/jeff.png" alt="project web developer vancouver">
@@ -34,7 +45,7 @@
 						</div>
 						<div class="home-project_box">
 							<a class="hompage-project-link animate__animated animate__zoomIn" href="project2.php">  
-								<p>BCIT react.js<br> course projects</p>
+								<p>react.js projects<br> collection</p>
 								<div class="project-image image">
 									<img  src="images/girl-front.png" data-aos="zoom-in" alt="project wordpress web developer vancouver">
 									<img class="img-top" src="images/girl.png" alt="project web developer vancouver">
@@ -43,7 +54,7 @@
 						</div>
 						<div class="home-project_box box1">
 							<a class="hompage-project-link animate__animated animate__zoomIn" href="project3.php">  
-								<p>AOT program </br>website</p>
+								<p>wordpress website</br>for students</p>
 								<div class="project-image image">
 									<img  src="images/paperclip-front.png" data-aos="zoom-in" alt="project wordpress web developer vancouver">
 									<img class="img-top" src="images/paperclip.png" alt="project web developer vancouver">

@@ -23,7 +23,7 @@
 .left {
     flex: 3;
     padding-top: 6%;
-    padding-left: 20px;
+    // padding-left: 20px;
 }
 .right {
     -webkit-box-flex: 1;
@@ -56,6 +56,14 @@
 		font: 399 10px/20px 'open sans';
 		text-transform: uppercase;
 	 	text-align: center;
+	}
+	.social-media-links {
+		display: flex;
+   		justify-content: center;
+		img {
+			width: 20px;
+			margin: 5px;
+		}
 	}
     // p {
     //     font: 500 13px/29px 'open sans';
