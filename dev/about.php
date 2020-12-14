@@ -68,7 +68,7 @@
 										<div class="card">
 											<a href="#0">
 												<div class="card--display"><i class="fas fa-search"></i>
-													<h2>User Research</h2>
+													<h2>User Experience</h2>
 												</div>
 												<div class="card--hover">
 													<ul>
@@ -91,7 +91,7 @@
 												</div>
 												<div class="card--hover">
 													<ul>
-														<li>Wordpress</li>
+														<li>WordPress</li>
 														<li>Shopify</li>
 														<li>WooCommerce</li>
 													</ul>
@@ -188,16 +188,16 @@
 							<div class="history-tl-container">
 								<ul class="tl">
 								<li class="tl-item test1">
-									<a href="#about" class="item-title" id="title-about">About me</a>
+									<a href="#about" class="item-title" id="title-about">about</a>
 								</li>
 								<li class="tl-item test2">
-									<a href="#skills" class="item-title">Skills</a>
+									<a href="#skills" class="item-title">skills</a>
 								</li>
 								<li class="tl-item test3">
-									<a href="#work" class="item-title" id="link">Work flow</a>
+									<a href="#work" class="item-title" id="link">work flow</a>
 								</li>
 								<li class="tl-item test4">
-									<a href="#about-magic" class="item-title" id="link">Contact me</a>
+									<a href="#about-magic" class="item-title" id="link">contact me</a>
 								</li>
 								</ul>
 							</div>

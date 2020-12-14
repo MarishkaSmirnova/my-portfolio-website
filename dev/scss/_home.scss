@@ -51,11 +51,18 @@
 		font: 399 30px/60px 'open sans';
 		text-transform: uppercase;
 		text-align: center;
+		margin-top: 10px;
 	}
 	h2 {
 		font: 399 10px/20px 'open sans';
 		text-transform: uppercase;
 	 	text-align: center;
+	}
+	h3 {
+		font: 399 30px/40px 'open sans';
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 0;
 	}
 	.social-media-links {
 		display: flex;
@@ -150,13 +157,12 @@
 	.home-main-info {
 		h1 {
 			font: 399 50px/80px 'open sans';
-			text-transform: uppercase;
-			text-align: center;
 		}
 		h2 {
 			font: 399 15px/10px 'open sans';
-			text-transform: uppercase;
-			 text-align: center;
+		}
+		h3 {
+			font: 399 50px/60px 'open sans';
 		}
 	}
     .right{

@@ -10,15 +10,16 @@
 				?>
 			<main>
 				<div class="container">
-					<div class="left animate__animated animate__zoomIn ">
-						<div class="home-main-info ">
+					<div class="left">
+						<div class="home-main-info">
 							<h2 class="email-title">
 								<div class="circle1">.</div>
 								<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
 							</h2>
-							<h1 class="animated fadeIn">Hello, I'm Marina <br>web developer & <br>UX designer</h1>
-							<h2 class="animated fadeIn">based in Vancouver, BC</h2>
-							<div class="social-media-links"> 
+							<h3 class="animate__animated animate__zoomIn">Hello, I'm Marina</h3>
+							<h1 class="animate__animated animate__zoomIn animate__delay-1s">web developer & <br>UX designer</h1>
+							<h2 class="animate__animated animate__zoomIn animate__delay-2s">based in Vancouver, BC</h2>
+							<div class="social-media-links animate__animated animate__zoomIn animate__delay-2s"> 
 								<a href="https://www.linkedin.com/in/marina-smirnova-4a0a9a114/?locale=en_US">
 									<img src="images/linkedin-logo.png" alt="linkedIn link">
 								</a>
@@ -35,7 +36,7 @@
 					</div>
 					<div class="right">
 						<div class="home-project_box">
-							<a class="hompage-project-link animate__animated animate__zoomIn" href="project1.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn animate__delay-3s" href="project1.php">  
 								<p>website for</br>the lawyer</p>
 								<div class="project-image image3">
 									<img  src="images/jeff-front.png" data-aos="zoom-in" lt="project wordpress web developer vancouver">
@@ -44,7 +45,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box">
-							<a class="hompage-project-link animate__animated animate__zoomIn" href="project2.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn animate__delay-3s" href="project2.php">  
 								<p>react.js projects<br> collection</p>
 								<div class="project-image image">
 									<img  src="images/girl-front.png" data-aos="zoom-in" alt="project wordpress web developer vancouver">
@@ -53,7 +54,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box1">
-							<a class="hompage-project-link animate__animated animate__zoomIn" href="project3.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn animate__delay-3s" href="project3.php">  
 								<p>wordpress website</br>for students</p>
 								<div class="project-image image">
 									<img  src="images/paperclip-front.png" data-aos="zoom-in" alt="project wordpress web developer vancouver">
@@ -62,7 +63,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box3">
-							<a class="hompage-project-link animate__animated animate__zoomIn" href="project4.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn animate__delay-3s" href="project4.php">  
 								<p>javascript</br> color game</p>
 								<div class="project-image image2">
 									<img  src="images/rbggame-front.png" data-aos="zoom-in" alt="javascript project web developer vancouver">
@@ -80,7 +81,7 @@
 							</a> 
 						</div> -->
 						<div class="home-project_box box5">
-							<a class="hompage-project-link animate__animated animate__zoomIn" href="project6.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn animate__delay-3s" href="project6.php">  
 								<p>web design </br>in photoshop</p>
 								<div class="project-image image">
 									<img  src="images/background-front.png" data-aos="zoom-in" alt="photoshop project web developer vancouver">
@@ -89,7 +90,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box4">
-							<a class="hompage-project-link animate__animated animate__zoomIn" href="project7.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn animate__delay-3s" href="project7.php">  
 								<p>PHP database</p>
 								<div class="project-image image2">
 									<img  src="images/php-front.png" data-aos="zoom-in" alt="php project web developer vancouver">
@@ -98,7 +99,7 @@
 							</a> 
 						</div>
 						<div class="home-project_box box6">
-							<a class="hompage-project-link animate__animated animate__zoomIn" href="project8.php">  
+							<a class="hompage-project-link animate__animated animate__zoomIn animate__delay-3s" href="project8.php">  
 								<p>portfolio</br> website</p>
 								<div class="project-image image">
 									<img  src="images/heart-front.jpg" data-aos="zoom-in" alt="javascript sass project web developer vancouver">

@@ -24,7 +24,7 @@
 										<i class="fas fa-arrow-right"></i>
 									</a>	
 								</div>
-								<h3>About the project</h3>
+								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
 									<div class="all-tool-icons">
@@ -57,7 +57,7 @@
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
-								<h3>Design Process</h3>
+								<h3>Design</h3>
 								<p>After the meeting over Zoom, I made a note in Google Docs with all the info discussed and gave a client access to edit it to be sure that we’re on the same page and he can add his ideas and changes any time. I also made a Google file folder with possible color combination, sitemap of the website for approval and examples of ideas about future logo. The client provided the text and photos for the website. After some time I made a wireframes in InVision and design examples of the pages in Photoshop. As it happens a lot I guess, I got new photos from the client after that and we decided to change it dramatically and came up with the ideas that is now implemented.</p>
 							</div>
 							<div class="slick-slider">
@@ -74,7 +74,7 @@
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 									id="development">
 							<div class="project-textpart">
-								<h3>Development Process</h3>
+								<h3>Development</h3>
 								<div class="sourse-code">
 									<i class="fab fa-github"></i>
 									<a href="https://github.com/MarishkaSmirnova/lawyers-website" target="_blank">sourse code</a>
@@ -98,21 +98,21 @@
 
 				<div class="right-side">
 					<div class="project-right animate__animated animate__fadeIn animate__delay-1s">
-						<h2>Project stages to choose:</h2>
+						<h3>Project stages:</h3>
 						<div class="project-timeline timeline">
 							<div class="history-tl-container">
 								<ul class="tl">
 									<li class="tl-item test1">
-										<a href="#project" class="item-title" id="title-project">About this project</a>
+										<a href="#project" class="item-title" id="title-project">about</a>
 									</li>
 									<li class="tl-item test2">
-										<a href="#design" class="item-title">Design process</a>
+										<a href="#design" class="item-title">design</a>
 									</li>
 									<li class="tl-item test3">
-										<a href="#development" class="item-title" id="link">Development process</a>
+										<a href="#development" class="item-title" id="link">development</a>
 									</li>
 									<li class="tl-item test4">
-										<a href="#project-magic" class="item-title " id="link">View live</a>
+										<a href="#project-magic" class="item-title " id="link">view live</a>
 									</li>
 								</ul>
 							</div>

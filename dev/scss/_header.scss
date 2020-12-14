@@ -8,7 +8,7 @@
 		.logo {
 			width: 116px;
 			height: 66px;
-			margin: 15px 0px 15px 20px;
+			margin: 15px 0px 15px 0px;
 			position: relative;
     		z-index: 2;
 		}
@@ -172,6 +172,7 @@ nav {
 			}
 	}
 	a {
+		font-weight: 100;
 		border-right: none;
 		color: $black;
 		border-bottom: none;
@@ -179,6 +180,7 @@ nav {
 		text-align: left;
 		text-align: center;
 		text-decoration: none; 
+		margin-right: 20px;
 	}
 	.activated {
 		transition: transform 0.3s ease;
@@ -232,7 +234,14 @@ nav {
 @media screen and (min-width: $phonePixel){   
     .menu {
         display: none;
-    }
+	}
+	.menu-container {
+		.logo-container {
+			.logo {
+				margin: 15px 0px 15px 20px;
+			}
+		}
+	}
     .menu-container ul {
         margin: 0;   
 	}
@@ -276,7 +285,7 @@ nav {
 //1250
 @media screen and (min-width: $desktopMedium){  
    .menu-container {
-	   padding: 20px;
+	//    padding: 20px;
 	   .logo-container {
 		   display: flex;
 		   .logo {
@@ -284,8 +293,6 @@ nav {
 			   z-index: 2;
 			   width: 116px;
 			   height: 66px;
-			   margin-top: 16px;
-			   margin-left: 0;
 		   }
 		//    .text-logo {
 		// 		h1 {

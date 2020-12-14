@@ -36,10 +36,8 @@
 			display: inline-block;
 			margin-bottom: 40px;
 			font-size: 24px;
+			text-transform: uppercase;
 			margin-top: 60px;
-		}
-		h3:not:first-child {
-			margin-top: 40px;
 		}
 		.tools-in-project {
 			display: flex;
@@ -96,10 +94,11 @@
     }
 }
 .project-right {
-	h2 {
+	margin-top: 90px;
+	h3 {
 		font-weight: 100;
-		font-size: 24px;
-		margin: 40px 20px;
+		font-size: 20px;
+		// margin: 40px 20px;
 	}
 }
 

@@ -78,11 +78,12 @@
     margin-left: 79px;
     min-height: 50px;
     border-left: 1px dashed #bbbaaf;
-    padding: 0 100px 50px 40px;
+    padding: 0 100px 50px 30px;
 	position: relative;
 	.item-title {
 		text-decoration: none;
-    	color: $black;
+		color: $black;
+		font-size: 14px;
 	}
 	&:last-child {
 		border-left: 0;
