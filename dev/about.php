@@ -172,7 +172,7 @@
 							</div>
 						</section>
 						<button class="about-magic-button magic-button btn filter-button animate__animated animate__zoomIn">
-							<a href="mailto:hello@msmirnova.ca">Contact me</a>
+							<a href="mailto:hello@msmirnova.ca">contact me</a>
 						</button>
 					</div><!--end of about-me-left-->
 					<div class="wrapper-scroll-button">
