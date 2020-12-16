@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     z-index: 100;
-    padding: 11px;
+    padding: 11px 20px 11px 11px;
 	border-bottom: 1px solid $black;
 	.logo-container {
 		.logo {
 			width: 116px;
 			height: 66px;
-			margin: 15px 0px 15px 0px;
+			margin: 15px 0px 15px 20px;
 			position: relative;
     		z-index: 2;
 		}
@@ -180,7 +180,6 @@ nav {
 		text-align: left;
 		text-align: center;
 		text-decoration: none; 
-		margin-right: 20px;
 	}
 	.activated {
 		transition: transform 0.3s ease;
