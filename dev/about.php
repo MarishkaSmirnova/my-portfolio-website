@@ -13,7 +13,7 @@
 					<div class="about-me-left">
 						<section class="about-info left-section animate__animated animate__zoomIn" id="about">
 							<div class="about-me-text">
-								<h3>About me</h3>
+								<h3>About</h3>
 								<div class="about-me-wrapper" data-aos="zoom-in">
 									<img class="myphoto-ontheright" src="images/marina_smirnova.jpg" alt="marina smirnova web designer developer">
 									<p>I’ve always been enthusiastic about interacting with computer technologies. I’ve been writing code since my early days of middle school when I was using Q-Basic and Pascal to create simple games. Years after I found myself playing around with WordPress from time to time, and learning HTML and CSS just out of the fun.</p>
@@ -111,8 +111,7 @@
 													<li>Git</li>
 													<li>GitHub</li>
 													<li>GitHub Desktop</li>
-													<li>RESTful APIs standards</li>
-													<li>NPM</li>
+													<li>npm</li>
 													<li>Visual Stidio Code</li>
 												</ul>
 											</div>
@@ -197,7 +196,7 @@
 									<a href="#work" class="item-title" id="link">work flow</a>
 								</li>
 								<li class="tl-item test4">
-									<a href="#about-magic" class="item-title" id="link">contact me</a>
+									<a href="#work" class="item-title" id="link">contact me</a>
 								</li>
 								</ul>
 							</div>

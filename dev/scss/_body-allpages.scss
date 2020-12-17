@@ -1,8 +1,13 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
-    font-family: 'Open Sans', sans-serif;
+	font-family: $main-font;
+}
+
+h1, h2, h3 {
+	font-family: $title-font;
 }
 .container {
     display: -webkit-box;
@@ -17,6 +22,7 @@ body {
     will-change: overflow;
     z-index:1;   
 }
+
 .left-side,
 .right-side {
     overflow: auto;
@@ -25,9 +31,11 @@ body {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
 }
+
 .left-side {
     flex:3;
 }
+
 .right-side {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -43,12 +51,11 @@ body {
     .container {
         z-index:1;
     }
-    
     .right-side {
         text-align:center;
     }
-   
 }
+
 //780
 @media screen and (min-width:$tabletsmall ){ 
 	.right-side,

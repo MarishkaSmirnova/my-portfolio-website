@@ -10,7 +10,7 @@
 		<main>
 			<div class="container">
 				<div class="left-side" id="left-side">
-					<div class="portfolio-left ">
+					<div class="portfolio-left animate__animated animate__zoomIn">
 						<h2>Projects:</h2>
 						<div class="portfolio-left-filter">
 							<h2>Tools filter:</h2>
@@ -19,7 +19,7 @@
 								<button class="btn filter-button" onclick="filterSelection('sass')">SASS</button>
 								<button class="btn filter-button" onclick="filterSelection('js')">JavaScript</button>
 								<button class="btn filter-button" onclick="filterSelection('jquery')">JQuery</button>
-								<button class="btn filter-button" onclick="filterSelection('react')">React</button>
+								<button class="btn filter-button" onclick="filterSelection('react')">React.js</button>
 								<button class="btn filter-button" onclick="filterSelection('php')">PHP</button>
 								<button class="btn filter-button" onclick="filterSelection('photoshop')">Photoshop</button>
 								<button class="btn filter-button" onclick="filterSelection('invision')">InVision</button>

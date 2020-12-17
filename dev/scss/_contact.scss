@@ -14,6 +14,7 @@ label {
 			align-items: center;
 			justify-content:center;
 			font-weight: 100;
+			font-size: 23px;
 		}
 		.name, 
 		.email, 
@@ -21,19 +22,19 @@ label {
 			padding:10px 0;
 			text-align:center;	
 			.input {
-				width:218px;
-				height:28px;
-				border:none;
+				width: 218px;
+				height: 43px;
+				border: none;
 				border-bottom: 1px solid black;
-				border-radius:4%;
-				font-family: $form-font;
+				border-radius: 4%;
+				// font-family: $form-font;
 			}
 			.textarea {
-				width:218px;
-				height:80px;
+				width: 180px;
+				height: 130px;
 				border-bottom: 1px solid black;
 				margin-top: 10px;
-				font-family: $form-font;
+				// font-family: $form-font;
 			}
 			label {
 				padding: 10px 0;
@@ -50,17 +51,16 @@ label {
 
 //LEFT SIDE
 .left-side-contact {
-	display: flex;
-	flex-direction: column-reverse;
+	display: block;
 	.contact-left {
 		text-align: center;
-		margin: 20px 0;
-		padding-top: 15%;
+		margin: 20px;
 		.greeting-text {
-			display: none;
+			margin-bottom: 0;
 		}
 		a {
 			color: $black;
+			text-decoration: none;
 		}
 	}
 }
@@ -88,27 +88,30 @@ label {
   color:$sky;
 }
 //680
-@media screen and (min-width: $phoneLandscape) {
-	.left-side-contact {
-		flex-direction: row;
-    	justify-content: space-around;
-	}
-}
+// @media screen and (min-width: $phoneLandscape) {
+// 	.left-side-contact {
+// 		flex-direction: row;
+//     	justify-content: space-around;
+// 	}
+// }
 //690
-@media screen and (min-width: $phonePixel){  
-  .form-left {
-    display:none;
-  }
-}
+// @media screen and (min-width: $phonePixel){  
+//   .form-left {
+//     display:none;
+//   }
+// }
 //780 
 @media screen and (min-width: $tabletsmall) {
+
 	.left-side-contact {
+		display: block;
 		.contact-left {
+			padding-top: 15%;
 			.greering-text {
 				display: block;
 			}
 		}
-		form {
+		.form-intro {
 			display: none;
 		}
 	}

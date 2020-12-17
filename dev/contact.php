@@ -7,10 +7,10 @@
 		 <?php include 'header.php'; ?> 
 		<main>
 			<div class="container">
-				<div class="left-side left-side-contact" id="left-side">
-					<div class="contact-left animate__animated animate__zoomIn">
+				<div class="left-side left-side-contact animate__animated animate__zoomIn" id="left-side">
+					<div class="contact-left">
 							<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
-							<p class="greering-text">If you have any questions or comments, feel free to contact me!</p>
+							<p class="greeting-text">If you have any questions or comments, feel free to contact me!</p>
 							<!-- <p><i class="fas fa-map-marker-alt"></i></p> -->
 							<!-- <p><i class="fas fa-map-marker-alt"></i>Vancouver, Beautiful British Columbia :)</p>  -->
 							<br>
@@ -30,25 +30,25 @@
 							class="form-intro" 
 							id="form-intro">
 						<div class="basic-info" class="animate__animated animate__zoomIn animate__delay-1s">
-							<h2 class="form-title">
+							<!-- <h2 class="form-title">
 								<div class="circle1">.</div>Feel free to contact me!
-							</h2>
+							</h2> -->
 							<div class="name">
 								<label for="name">Name: </label>
 								<br>
-								<input placeholder="Enter your name" type="text" name="name" class="input">
+								<input placeholder="your name" type="text" name="name" class="input">
 								<br>
 							</div>
 							<div class="email">
 								<label for="email">Email: </label>
 								<br>
-								<input placeholder="Enter your email" type="email" name="email" class="input">
+								<input placeholder="your email" type="email" name="email" class="input">
 								<br>
 							</div>
 							<div class="message">
 								<label for="message">Message:</label>
 								<br>
-								<textarea placeholder="Enter your message" name="message" id="message" cols="30" rows="10" class="textarea"></textarea>
+								<textarea placeholder="your message" name="message" id="message" cols="30" rows="10" class="textarea"></textarea>
 								<br>
 							</div>
 							<div class="button-submit">
@@ -78,19 +78,19 @@
 								<div class="name">
 									<label for="name">Name: </label>
 									<br>
-									<input placeholder="Enter your name" type="text" name="name" class="input">
+									<input placeholder="your name" type="text" name="name" class="input">
 									<br>
 								</div>
 								<div class="email">
 									<label for="email">Email: </label>
 									<br>
-									<input placeholder="Enter your email" type="email" name="email" class="input">
+									<input placeholder="your email" type="email" name="email" class="input">
 									<br>
 								</div>
 								<div class="message">
 									<label for="message">Message:</label>
 									<br>
-									<textarea placeholder="Enter your message" name="message" id="message" cols="30" rows="10" class="textarea"></textarea>
+									<textarea placeholder="your message" name="message" id="message" cols="30" rows="10" class="textarea"></textarea>
 									<br>
 								</div>
 								<div class="button-submit">

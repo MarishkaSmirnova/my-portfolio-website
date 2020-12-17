@@ -6,14 +6,14 @@
     img {
         height:150px;
         width:150px;
-        margin-top:20px;
+        margin-top:60px;
     }
 }
 .myphoto-ontheright {
 	height: 150px;
 	width: 150px;
 	margin: 10px;
-	float: right;
+	// float: right;
 }
 .about-me-text,
 .about-skills,
@@ -22,10 +22,11 @@
 	h3 {
 		font-weight: 100;
 		font-size: 24px;
-		border-bottom: 3px solid $golden;
+		border-bottom: 5px solid $golden;
 		display: inline-block;
-		margin-top: 40px;
+		margin-top: 60px;
 		margin-bottom: 40px;
+		text-transform: uppercase;
 	}
 	p {
 		text-align: justify;
@@ -56,19 +57,19 @@
 
 //Timelinesettings
 .history-tl-container {
-    font-family: "Roboto",sans-serif;
     width:100%;
-    margin:auto;
+	margin:auto;
     display:block;
     position:relative;
     text-align: left;
-    text-align: center;
+	text-align: center;
+	margin-top: 10px;
     ul {
       text-align: left;
     }
 }
 .history-tl-container ul.tl {
-    margin: 20px 0;
+    margin: 50px 0;
     padding: 0;
     display: inline-block;
 }
@@ -78,12 +79,13 @@
     margin-left: 79px;
     min-height: 50px;
     border-left: 1px dashed #bbbaaf;
-    padding: 0 100px 50px 30px;
+    padding: 0 56px 50px 30px;
 	position: relative;
 	.item-title {
 		text-decoration: none;
 		color: $black;
 		font-size: 14px;
+		font-family: $main-font;
 	}
 	&:last-child {
 		border-left: 0;
@@ -138,6 +140,7 @@
 		max-width: 237px;
 		margin-left: 30px;
 		a {
+			font-family: $main-font;
 			padding: 30px;
 			height: 300px;
 			border: 1px solid $black;
@@ -165,6 +168,7 @@
 				h2 {
 					margin: 10px 0 0;
 					font-size: 18px;
+					font-family: $main-font;
 				}
 			}
 			.card--hover {
@@ -178,8 +182,13 @@
 					line-height: 1.6;
 					list-style: none;
 					padding: 0;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
 					li {
 						margin: 4px;
+						text-align: left;
 						&::before {
 							content: "\2022"; 
 							color: $bright_coral; 

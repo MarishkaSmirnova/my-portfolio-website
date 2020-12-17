@@ -22,15 +22,15 @@
 
 .left {
     flex: 3;
-    padding-top: 6%;
+    padding-top: 25%;
     // padding-left: 20px;
 }
 .right {
+	display:none;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    display:none;
     padding:0;
 	margin:0;
 	text-align:center;
@@ -45,24 +45,33 @@
 			font-size: 16px;
 			text-transform: lowercase;
 			padding-left: 3px;
+			font-family: $main-font;
         }
     }
     h1 {
-		font: 399 30px/60px 'open sans';
+		font-size: 37px;
+		font-weight: 100px;
+		line-height: 1.7;
 		text-transform: uppercase;
 		text-align: center;
 		margin-top: 10px;
+		color: $golden;
 	}
 	h2 {
-		font: 399 10px/20px 'open sans';
+		font-size: 17px;
+		font-weight: 100;
+		line-height: 1.7;
 		text-transform: uppercase;
 	 	text-align: center;
 	}
 	h3 {
-		font: 399 30px/40px 'open sans';
+		font-size: 30px;
+		font-weight: 100;
+		line-height: 1.7;
 		text-transform: uppercase;
 		text-align: center;
 		margin-bottom: 0;
+		color: $golden;
 	}
 	.social-media-links {
 		display: flex;
@@ -102,7 +111,7 @@
 		flex-direction: column;
 		color:$black;
 		p {
-			margin:10px; 
+			margin: 13px; 
 			padding: 3% 0;
 			font-size:12px;
 		} 
@@ -165,20 +174,26 @@
 			font: 399 50px/60px 'open sans';
 		}
 	}
-    .right{
-        display:block;
-    }
     .container {
         z-index:1;
 	}
-	.right-side,
-	.left-side{
-		display:block;
-	}
-}
 	
+}
+//780 
+@media screen and (min-width: $tabletsmall) {
+	.left {
+		padding-top: 20%;
+	}
+	.right {
+		display: block;
+	}
+
+}
 //850
 @media screen and (min-width: $tabletPortrait){  
+	.left {
+		padding-top: 10%;
+	}
     .hompage-project-link {
         p {
             font-size:16px;
@@ -191,6 +206,9 @@
 }
 //1800 
 @media screen and (min-width: $desktopLarge) {
+	.left {
+		padding-top: 6%;
+	}
 	.home-main-info {
 		text-align: center;
 		// .email-title {
