@@ -11,7 +11,7 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="portfolio-left animate__animated animate__zoomIn">
-						<h2>Projects:</h2>
+						<h2 class="main-title">Projects:</h2>
 						<div class="portfolio-left-filter">
 							<h2>Tools filter:</h2>
 							<div class="portfolio-left-filter-buttons" id="myBtnContainer">
@@ -30,7 +30,19 @@
 						<div class="all-projects grid">
 		<!-- PROJECT 1                    -->
 							<div class="portfolio-item js"> 
-								<a href="project1.php" class="project-link filterDiv js php invision photoshop sass jquery google portfolio-item ">
+								<div href="project1.php" class="hovereffect project-link filterDiv js php invision photoshop sass jquery google portfolio-item">
+									<img class="project-image" src="images/jeff-main.png" alt="bcit landing page marina smirnova">
+										<div class="overlay">
+											<h2 class="project-name">Lawyer's Website</h2>
+											<p> html|sass|js|jquery|invision|
+												<br>
+												photoshop|google analytics</p>
+											<p>
+												<a href="project1.php">see project</a>
+											</p>
+										</div>
+								</div>
+								<!-- <a href="project1.php" class="project-link filterDiv js php invision photoshop sass jquery google portfolio-item ">
 									<figure>
 										<img class="project-image" src="images/jeff-main.png" alt=" bcit landing page marina smirnova">
 										<figcaption>
@@ -47,7 +59,7 @@
 											</div>
 										</figcaption>
 									</figure>
-								</a>
+								</a> -->
 							</div>
 		<!-- PROJECT 2                    -->   
 							<div class="portfolio-item js"> 
