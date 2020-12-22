@@ -15,16 +15,9 @@
 						<div class="portfolio-left-filter">
 							<h2>Tools filter:</h2>
 							<div class="portfolio-left-filter-buttons" id="myBtnContainer">
-								<button class="btn filter-button active" onclick="filterSelection('all')"> See All</button>
-								<button class="btn filter-button" onclick="filterSelection('sass')">SASS</button>
-								<button class="btn filter-button" onclick="filterSelection('js')">JavaScript</button>
-								<button class="btn filter-button" onclick="filterSelection('jquery')">JQuery</button>
-								<button class="btn filter-button" onclick="filterSelection('react')">React.js</button>
-								<button class="btn filter-button" onclick="filterSelection('php')">PHP</button>
-								<button class="btn filter-button" onclick="filterSelection('photoshop')">Photoshop</button>
-								<button class="btn filter-button" onclick="filterSelection('invision')">InVision</button>
-								<button class="btn filter-button" onclick="filterSelection('balsamiq')">Balsamiq</button>
-								<button class="btn filter-button" onclick="filterSelection('google')">Google Analytics</button>
+								<?php 
+									include 'filter-buttons.php';
+									?>
 							</div>
 						</div>
 						<div class="all-projects grid">
@@ -34,150 +27,106 @@
 									<img class="project-image" src="images/jeff-main.png" alt="bcit landing page marina smirnova">
 										<div class="overlay">
 											<h2 class="project-name">Lawyer's Website</h2>
-											<p> html|sass|js|jquery|invision|
+											<p> html5|sass|js|jquery|invision|
 												<br>
-												photoshop|google analytics</p>
+												adobe photoshop|google analytics</p>
 											<p>
 												<a href="project1.php">see project</a>
 											</p>
 										</div>
 								</div>
-								<!-- <a href="project1.php" class="project-link filterDiv js php invision photoshop sass jquery google portfolio-item ">
-									<figure>
-										<img class="project-image" src="images/jeff-main.png" alt=" bcit landing page marina smirnova">
-										<figcaption>
-											<p>Lawyer's Website</p>
-											<div class="all-tool-icons">
-												<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-												<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-												<img class="tool-icon" src="images/sass-logo.png" alt="sass logo">
-												<img class="tool-icon" src="images/jquery-logo.png" alt="sass logo">
-												<img class="tool-icon" src="images/js-logo.png" alt="js logo">
-												<img class="tool-icon" src="images/invision-logo.jpg" alt="invision logo">
-												<img class="tool-icon" src="images/photoshop-logo.png" alt="photoshop logo">
-												<img class="tool-icon" src="images/google-logo.png" alt="google  analytics logo">
-											</div>
-										</figcaption>
-									</figure>
-								</a> -->
 							</div>
 		<!-- PROJECT 2                    -->   
 							<div class="portfolio-item js"> 
-								<a href="project2.php" class="project-link filterDiv react invision portfolio-item ">
-									<figure>
-										<img class="project-image" src="images/react-main.png" alt=" bcit landing page marina smirnova">
-										<figcaption>
-											<p>React App with Projects</p>
-											<div class="all-tool-icons">
-												<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-												<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-												<img class="tool-icon" src="images/react.png" alt="react logo">
-												<img class="tool-icon" src="images/invision-logo.jpg" alt="invision logo">
-											</div>
-										</figcaption>
-									</figure>
-								</a>
+								<div href="project2.php" class="hovereffect project-link filterDiv react invision portfolio-item portfolio-item">
+									<img class="project-image" src="images/react-main.png" alt="bcit react landing page marina smirnova">
+										<div class="overlay">
+											<h2 class="project-name">React.js projects</h2>
+											<p> html5|css3|react.js|invision|</p>
+											<p>
+												<a href="project2.php">see project</a>
+											</p>
+										</div>
+								</div>
 							</div>
 		<!-- PROJECT 3                    --> 
 							<div class="portfolio-item js"> 
-								<a href="project3.php" class="project-link filterDiv js php jquery sass balsamiq google">
-									<figure>
-										<img class="project-image" src="images/oat-main.png" alt="client project bcit oat">
-										<figcaption>
-											<p>OAT Program Website</p>
-											<div class="all-tool-icons">
-												<img class="tool-icon" src="images/wordpress-logo.png" alt="wordpress logo">
-												<img class="tool-icon" src="images/js-logo.png" alt="js logo">
-												<img class="tool-icon" src="images/jquery-logo.png" alt="jQuery logo">
-												<img class="tool-icon" src="images/sass-logo.png" alt="sass logo">
-												<img class="tool-icon" src="images/php-logo.jpg" alt="php logo">
-												<img class="tool-icon" src="images/google-logo.png" alt="google-logo">
-											</div>  
-										</figcaption>
-									</figure>
-								</a>
+								<div href="project3.php" class="hovereffect project-link filterDiv wordpress js php jquery sass balsamiq google portfolio-item">
+									<img class="project-image" src="images/oat-main.png" alt="client project bcit oat">
+										<div class="overlay">
+											<h2 class="project-name">WordPress OAT Website</h2>
+											<p> wordpress|php|sass|js|
+												<br>
+												jquery|google analytics</p>
+											<p>
+												<a href="project3.php">see project</a>
+											</p>
+										</div>
+								</div>
 							</div>
 		<!-- PROJECT 4                    -->  
-							<div class="portfolio-item react"> 
-								<a href="project4.php" class="project-link filterDiv js portfolio-item ">
-									<figure>
-										<img class="project-image" src="images/jsdesign1.png" alt="java script project">
-										<figcaption>
-											<p>JS RBG Color Game</p>
-											<div class="all-tool-icons">
-												<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-												<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-												<img class="tool-icon" src="images/js-logo.png" alt="js">
-											</div>  
-										</figcaption>
-									</figure>
-								</a>
-							</div>	
-		<!-- PROJECT 5                    -->     
-							 <!-- <div class="portfolio-item react"> 
-								<a href="project5.php" class="project-link filterDiv react ">
-									<figure>
-										<img class="project-image" src="images/react-project.png" alt="react project">
-										<figcaption>
-											<p>React News Website</p>
-											<div class="all-tool-icons">
-												<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-												<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-												<img class="tool-icon" src="images/react.png" alt="react logo">
-											</div>
-										</figcaption>
-									</figure>
-								</a>
-							</div> -->
-		<!-- PROJECT 6                    -->  
-							<div class="portfolio-item photoshop"> 
-								<a href="project6.php" class="project-link filterDiv photoshop ">
-								<figure>
-									<img class="project-image" src="images/photoshop.png" alt="photoshop project web design marina smirnova">
-									<figcaption>
-										<p>Photoshop Design Project</p>
-										<div class="all-tool-icons">
-											<img class="tool-icon" src="images/photoshop-logo.png" alt="photoshop logo">
+							<div class="portfolio-item js"> 
+								<div href="project4.php" class="hovereffect filterDiv project-link js ">
+									<img class="project-image" src="images/jsdesign1.png" alt="javascript project">
+										<div class="overlay">
+											<h2 class="project-name">JS Color Game</h2>
+											<p> html5|css3|js<p>
+												<a href="project4.php">see project</a>
+											</p>
 										</div>
-									</figcaption>
-								</figure>
-								</a>
+								</div>
+							</div>
+		<!-- PROJECT 5                    -->     
+							<div class="portfolio-item js"> 
+								<div href="project5.php" class="hovereffect project-link filterDiv react">
+									<img class="project-image" src="images/react-project.png" alt="react project">
+										<div class="overlay">
+											<h2 class="project-name">React.js News Website</h2>
+											<p> html5|css3|react.js<p>
+												<a href="project5.php">see project</a>
+											</p>
+										</div>
+								</div>
+							</div>
+		<!-- PROJECT 6                    -->  
+							<div class="portfolio-item js"> 
+								<div href="project6.php" class="hovereffect project-link photoshop filterDiv">
+									<img class="project-image" src="images/photoshop.png" alt="photoshop project web design marina smirnova">
+										<div class="overlay">
+											<h2 class="project-name">Photoshop Design Project</h2>
+											<p> adobe photoshop<p>
+												<a href="project6.php">see project</a>
+											</p>
+										</div>
+								</div>
 							</div>
 		<!-- PROJECT 7					 -->
 							<div class="portfolio-item js"> 
-								<a href="project7.php" class="project-link filterDiv php portfolio-item ">
-									<figure>
-										<img class="project-image" src="images/php-main.jpg" alt="php project marina smirnova">
-										<figcaption>
-											<p>PHP Students Database</p>
-											<div class="all-tool-icons">
-												<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-												<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-												<img class="tool-icon" src="images/php-logo.jpg" alt="php logo">
-												
-											</div>
-										</figcaption>
-									</figure>
-								</a>
+								<div href="project7.php" class="hovereffect project-link photoshop filterDiv">
+									<img class="project-image" src="images/php-main.jpg" alt="php project marina smirnova">
+										<div class="overlay">
+											<h2 class="project-name">PHP Students Database</h2>
+											<p>html5|css3|php<p>
+												<a href="project7.php">see project</a>
+											</p>
+										</div>
+								</div>
 							</div>
 		<!-- PROJECT 8 -->
-							<div class="portfolio-item">                       
-								<a href="project8.php" class="project-link filterDiv sass js php jquery balsamiq google">
-									<figure>
-										<img class="project-image" src="images/portfolio-main.png" alt="portfolio site image">
-										<figcaption>
-										<p>Portfolio Website</p>
-										<div class="all-tool-icons">
-											<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-											<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-											<img class="tool-icon" src="images/js-logo.png" alt="js logo">
-											<img class="tool-icon" src="images/jquery-logo.png" alt="jquery logo">
-											<img class="tool-icon" src="images/sass-logo.png" alt="sass logo">
-											<img class="tool-icon" src="images/google-logo.png" alt="google analytjics">
+							<div class="portfolio-item js"> 
+								<div href="project8.php" class="hovereffect project-link filterDiv sass js php jquery photoshop balsamiq google">
+									<img class="project-image" src="images/portfolio-main.png" alt="portfolio site image">
+										<div class="overlay">
+											<h2 class="project-name">Portfolio Website</h2>
+											<p>html5|sass|js|php|jquery|
+												<br>
+												adobe photoshop|google analytics
+											</p>
+											<p>
+												<a href="project8.php">see project</a>
+											</p>
 										</div>
-									</figcaption>
-									</figure>
-								</a>
+								</div>
 							</div>
 						</div><!--end of all-projects grid-->
 					</div>
@@ -190,17 +139,10 @@
 			
 				<div class="right-side">
 					<div class="portfolio-right animate__animated animate__zoomIn animate__delay-1s" id="myBtnContainer">
-						<h2>Tools filter:</h2>
-						<button class="btn filter-button active" onclick="filterSelection('all')"> See All</button>
-						<button class="btn filter-button" onclick="filterSelection('sass')">SASS</button>
-						<button class="btn filter-button" onclick="filterSelection('js')">JavaScript</button>
-						<button class="btn filter-button" onclick="filterSelection('jquery')">JQuery</button>
-						<button class="btn filter-button" onclick="filterSelection('react')">React.js</button>
-						<button class="btn filter-button" onclick="filterSelection('php')">PHP</button>
-						<button class="btn filter-button" onclick="filterSelection('photoshop')">Photoshop</button>
-						<button class="btn filter-button" onclick="filterSelection('invision')">InVision</button>
-						<button class="btn filter-button" onclick="filterSelection('balsamiq')">Balsamiq</button>
-						<button class="btn filter-button" onclick="filterSelection('google')">Google Analytics</button>
+					<h2>Tools filter:</h2>
+					<?php 
+						include 'filter-buttons.php';
+						?>
 					</div>
 				</div>
 			</div> 
