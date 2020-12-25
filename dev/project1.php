@@ -27,7 +27,7 @@
 								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
-									<div class="all-tool-icons">
+									<!-- <div class="all-tool-icons">
 										<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
 										<img class="tool-icon" src="images/css-logo.png" alt="css logo">
 										<img class="tool-icon" src="images/sass-logo.png" alt="sass logo">
@@ -36,7 +36,32 @@
 										<img class="tool-icon" src="images/invision-logo.jpg" alt="invision logo">
 										<img class="tool-icon" src="images/photoshop-logo.png" alt="photoshop logo">
 										<img class="tool-icon" src="images/google-logo.png" alt="google  analytics logo">
-									</div>  
+									</div>   -->
+									<div class="all-tools">
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>HTML5</p>
+												<p>Sass</p>
+												<p>JavaScript</p>
+											</div>
+											<div class="tool-list">
+												<p>PHP</p>
+												<p>InVision</p>
+												<p>Adobe Photoshop</p>
+											</div>
+										</div>
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>Google Analytics</p>
+												<p>Git</p>
+												<p>GitHub</p>	
+											</div>
+											<div class="tool-list">
+												<p>MAMP</p>
+												<p>Visual Studio Code </p>
+											</div>
+										</div>				
+									</div>	
 								</div>
 								<p>This website was created for the private lawyer based in Minnesota, US. He requested a website which will represent his expertise and the broad spectrum of Law Fields he can work with. 
 									I met with the client over Zoom and discussed our possible routes and design.<br>

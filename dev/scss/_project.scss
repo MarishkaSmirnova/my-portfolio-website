@@ -27,7 +27,6 @@
 			}
 		}
 	}
-	
     .project-textpart {
 		text-align: center;
         h3 {
@@ -40,13 +39,24 @@
 			margin-top: 60px;
 		}
 		.tools-in-project {
-			display: flex;
-			justify-content: center;
-			margin-bottom: 30px;
+			margin-bottom: 50px;
 			h5 {
-				margin: 0;
-				margin-right: 20px;
+				margin: 0 0 20px 0;
 				font-size: 14px;
+			}
+			.all-tools {
+				display: flex;
+				justify-content: center;
+				.tool-column {
+					
+					.tool-list {
+						p {
+							font-size: 12px;
+							text-align: left;
+							color: grey;
+						}
+					}
+				}
 			}
 		}
         p {
@@ -104,6 +114,17 @@
 
 //420
 @media screen and (min-width: $phoneIphone){ 
+	.project-info {
+		.project-textpart {
+			.tools-in-project {
+				.all-tools {
+					.tool-column {
+						margin-right: 20px;
+					}
+				}
+			}
+		}
+	}
     .about-project-image {
         height: 200px;
 	}
@@ -121,14 +142,14 @@
 		.project-textpart {
 			.tools-in-project {
 				h5 {
-					font-size: 17px;
-					margin-top: 10px;
+					font-size: 16px;
 				}
-				.all-tool-icons {
-					img {
-						height: 40px;
-						width: 40px;
-						margin-right: 5px;
+				.all-tools {
+					.tool-column {
+						display: flex;
+						.tool-list {
+							margin-right: 20px;
+						}
 					}
 				}
 			}
@@ -165,7 +186,7 @@
 }
 @media screen and (min-width: $tabletLandscape){
     .about-project-image {
-        height:420px;
+        height: 420px;
     }
 }
 //1250
@@ -207,7 +228,7 @@
 	.home-project_box  {
 		.hompage-project-link {
 			flex-direction: row;
-			padding:10%;
+			padding: 10%;
 		}
 	}
 }
