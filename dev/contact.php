@@ -9,10 +9,12 @@
 			<div class="container">
 				<div class="left-side left-side-contact animate__animated animate__zoomIn" id="left-side">
 					<div class="contact-left">
-							<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
+							<h2 class="email-title">
+								<div class="circle1">.</div>
+								<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
+							</h2>
 							<p class="greeting-text">If you have any questions or comments, feel free to contact me!</p>
-							<!-- <p><i class="fas fa-map-marker-alt"></i></p> -->
-							<!-- <p><i class="fas fa-map-marker-alt"></i>Vancouver, Beautiful British Columbia :)</p>  -->
+
 							<br>
 							<a href="https://www.linkedin.com/in/marina-smirnova-4a0a9a114/?locale=en_US">
 								<img src="images/linkedin-logo.png" alt="linkedIn link">

@@ -239,6 +239,14 @@
 		}
 	}
 }
+
+@media screen and (min-width: $tabletLandscape) {
+	.portfolio-left {
+		.main-title {
+			margin-bottom: 0;
+		}
+	}
+}
 @media screen and (min-width: $tabletsmall){  
 	.portfolio-left {
 		.portfolio-left-filter {

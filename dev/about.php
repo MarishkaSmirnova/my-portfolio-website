@@ -35,11 +35,11 @@
 												<ul>
 													<li>HTML5 / CSS3</li>
 													<li>SASS</li>
-													<li>Bootstrap</li>
 													<li>JavaScript</li>
 													<li>React.js</li>
 													<li>jQuery</li>
 													<li>PHP7</li>
+													<li>Liquid</li>
 												</ul>
 											</div>
 										</a>
@@ -71,12 +71,16 @@
 													<h2>User Experience</h2>
 												</div>
 												<div class="card--hover">
-													<ul>
-														<li>Google Analytics</li>
-														<li>Yandex Metrika</li>
-														<li>Usability Testing</li>
+													<ul class="ux">
+														<li>Target Audience</li>
+														<li>User Persona/Scenarious</li>
+														<li>Competitive Analysis</li>
+														<li>Content Inventory</li>
 														<li>Prototyping</li>
 														<li>Heat-maps</li>
+														<li>Customer Journey</li>
+														<li>Usability Testing</li>
+														<li>Google Analytics</li>
 													</ul>
 												</div>
 											</a>
@@ -111,8 +115,10 @@
 													<li>Git</li>
 													<li>GitHub</li>
 													<li>GitHub Desktop</li>
+													<li>Terminal</li>
+													<li>MAMP</li>
 													<li>npm</li>
-													<li>Visual Stidio Code</li>
+													<li>VS Code</li>
 												</ul>
 											</div>
 										</a>

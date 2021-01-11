@@ -176,9 +176,12 @@
 				h2 {
 					margin: 10px 0;
 					font-size:18px;
-        		}
+				}
+				.ux {
+					font-size: 13px;
+				}
 				ul {
-					font-size:16px;
+					font-size: 16px;
 					line-height: 1.6;
 					list-style: none;
 					padding: 0;
@@ -187,7 +190,7 @@
 					left: 50%;
 					transform: translate(-50%, -50%);
 					li {
-						margin: 4px;
+						// margin: 4px;
 						text-align: left;
 						&::before {
 							content: "\2022"; 

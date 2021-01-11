@@ -1,4 +1,4 @@
-.wrapper-scroll-btn{
+.wrapper-scroll-btn {
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -60,7 +60,7 @@
 	-o-transform: rotate(360deg) translateZ(1px);
 	-ms-transform: rotate(360deg);
 }
-@media screen and (min-width: $phonePixel){ 
+@media screen and (min-width: $tabletsmall){ 
 	.scroll-btn {
 		right: 27%;
 	}
