@@ -24,24 +24,39 @@
 										<i class="fas fa-arrow-right"></i>
 									</a>	
 								</div>
-								<h3>About the project</h3>
+								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
-									<div class="all-tool-icons">
+									<!-- <div class="all-tool-icons">
 										<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
 										<img class="tool-icon" src="images/css-logo.png" alt="css logo">
 										<img class="tool-icon" src="images/react.png" alt="react logo">
 										<img class="tool-icon" src="images/invision-logo.jpg" alt="invision logo">
-									</div>  
+									</div>   -->
+									<div class="all-tools">
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>HTML5</p>
+												<p>CSS3</p>
+											</div>
+										</div>	
+										<div class="tool-column">	
+											<div class="tool-list">
+												<p>React.js</p>
+												<p>InVision</p>
+											</div>
+										</div>	
+									</div>				
+									</div>
 								</div>
-								<p>After graduation from React and Modern Javascript  BCIT course, I decided  that the best way to demonstrate my accomplishments is to create a small App with exercises and assignments I did during this course.</p>
+								<p>After graduation from React.js and Modern JavaScript BCIT course, I decided that the best way to demonstrate my accomplishments is to create a small App with exercises and assignments I did during this course.</p>
 							</div>
 							<img class="about-project-image" src="images/react-laptop.jpg" alt="client project laptop view" class="projectpiece">
 						</section>
-						<section class="project-info left-section animate__animated animate__slideInUp" 
+						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
-								<h3>Design Process</h3>
+								<h3>Design</h3>
 								<p>The design process was pretty simple and straightforward. I made a quick sketch using InVision App to get a clear idea of the look, content and order of the projects.</p>
 							</div>
 							<div class="slick-slider">
@@ -49,10 +64,10 @@
 								<div><img src="images/react-design.png" alt="client project sitemap" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section animate__animated animate__slideInUp" 
+						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
-								<h3>Development Process</h3>
+								<h3>Development</h3>
 								<div class="sourse-code">
 									<i class="fab fa-github"></i>
 									<a href="https://github.com/MarishkaSmirnova/react-portfolio-project" target="_blank">sourse code</a>
@@ -64,7 +79,7 @@
 							</div>
 						</section>
 						
-						<button class="project-magic-button magic-button btn filter-button animate__animated animate__slideInUp" 
+						<button class="project-magic-button magic-button btn filter-button animate__animated animate__fadeIn" 
 								id="project-magic">
 							<a href="projects/reactCourse/" target="_blank">View Live</a>
 						</button>

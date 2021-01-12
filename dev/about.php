@@ -11,18 +11,20 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="about-me-left">
-						<section class="about-info left-section animate__animated animate__zoomIn" id="about">
+						<section class="about-info left-section animate__animated animate__fadeIn" id="about">
 							<div class="about-me-text">
 								<h3>About</h3>
 								<div class="about-me-wrapper" data-aos="zoom-in">
 									<img class="myphoto-ontheright" src="images/marina_smirnova.jpg" alt="marina smirnova web designer developer">
-									<p>I’ve always been enthusiastic about interacting with computer technologies. I’ve been writing code since my early days of middle school when I was using Q-Basic and Pascal to create simple games. Years after I found myself playing around with WordPress from time to time, and learning HTML and CSS just out of the fun.</p>
-									<p>I became interested in programming and started studying JavaScript. After moving to Canada I made an important decision to switch my career from sales and marketing to web development. I completed with distinction 2 courses in British Columbia Technological University: Technical Web Design and React and Modern JavaScript. </p>
-									<p>After graduation, I’ve challenged myself to spend some time developing websites on my own and gained valuable hands-on experience. This experience gave me confidence in the choice I’ve made, the knowledge I have, and I got determent to make valuable contributions in the web world.</p>
+									<p>Hi, I’m Marina.</p>
+									<p>I am a front-end developer and UX designer living in beautiful Vancouver, Canada.</p>
+									<p>I first started dabbing into the world of web development through learning how to code watching Udemy web development and design courses when I needed my own website years ago. I found myself very enthusiastic about creating it and the more I learned, the more I fell in love with web development and it wasn’t much later when I decided that web development is what I want to pursue as my career.</p>
+									<p>I love that front-end development allows both sides of my brain to challenge each other and work cohesively together. I strive to create positive digital experience for every user, no matter the device, browser, age, or tech-savviness. I believe that a website should not only look beautiful, but functional as well. I always work hard on enhancing the user's experience and  make the interface straightforward. </p>
+									<p>When I’m not developing or bringing the design into living, you can find me biking on the seawall, skiing and enjoying the beautiful weather (rain or shine – I love both) in Vancouver.</p>
 								</div>
 							</div>
 						</section>
-						<section class="about-skills left-section animate__animated animate__zoomIn" id="skills">
+						<section class="about-skills left-section animate__animated animate__fadeIn" id="skills">
 							<h3>Skills</h3>
 							<div class="all-cards" data-aos="zoom-in">
 								<div class="card-container">
@@ -127,7 +129,7 @@
 								</div>
 							</div> <!--and ao all cards container-->          
 						</section>
-						<section class="about-work-flow left-section animate__animated animate__zoomIn" id="work" >
+						<section class="about-work-flow left-section animate__animated animate__fadeIn" id="work" >
 							<div>
 								<h3>Work flow</h3>
 								<div class="work-flow-items">

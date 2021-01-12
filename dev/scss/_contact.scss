@@ -27,13 +27,14 @@ label {
 				height: 43px;
 				border: none;
 				border-bottom: 1px solid black;
+				font-family: $title-font;
 			}
 			.textarea {
 				width: 218px;
 				height: 130px;
 				border-bottom: 1px solid black;
 				margin-top: 10px;
-
+				font-family: $title-font;
 			}
 			label {
 				padding: 10px 0;

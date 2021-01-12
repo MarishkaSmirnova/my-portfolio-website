@@ -24,12 +24,16 @@
 										<i class="fas fa-arrow-right"></i>
 									</a>	
 								</div>
-								<h3>About the project</h3>
+								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
-									<div class="all-tool-icons">
-										<img class="tool-icon" src="images/photoshop-logo.png" alt="photoshop logo">
-									</div> 
+									<div class="all-tools">
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>Adobe Photoshop</p>
+											</div>
+										</div>				
+									</div>
 								</div>	
 								<p>One of the assignments on my TWD BCIT course was to create website design with the help of Adobe Photoshop and Adobe XD.</br>
 									Anti-stress colouring pictures are really trendy nowadays and I came up with an idea to make a website where you can do colouring paintings online as well as order books with colouring pictures.</p>

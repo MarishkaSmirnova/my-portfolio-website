@@ -25,15 +25,18 @@
 										<i class="fas fa-arrow-right"></i>
 									</a>	
 								</div>
-								<h3>About the project</h3>
+								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
-									<div class="all-tool-icons">
-										<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-										<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-										<img class="tool-icon" src="images/php-logo.jpg" alt="php logo">
-
-									</div>  
+									<div class="all-tools">
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>HTML5</p>
+												<p>CSS3</p>
+												<p>PHP</p>
+											</div>
+										</div>			
+									</div>
 								</div>
 								<p>This project is one of the assignments I had during TWD course in BCIT. I created a table with students IDs, first names and last names, and added 2 buttons to to each student  which enables to delete or edit info.</p>
 							</div>
@@ -42,7 +45,7 @@
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 									id="design">
 							<div class="project-textpart">
-								<h3>Design Process</h3>
+								<h3>Design</h3>
 								<p>Design part were given to copy from instructor’s example.</p>
 							</div>
 							<div class="slick-slider">
@@ -52,7 +55,7 @@
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
-								<h3>Development Process</h3>
+								<h3>Development</h3>
 								<div class="sourse-code">
 									<i class="fab fa-github"></i>
 									<a href="https://github.com/MarishkaSmirnova/php-students-database" target="_blank">sourse code</a>

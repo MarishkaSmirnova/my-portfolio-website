@@ -36,7 +36,6 @@
 			margin-bottom: 40px;
 			font-size: 24px;
 			text-transform: uppercase;
-			margin-top: 60px;
 		}
 		.tools-in-project {
 			margin-bottom: 50px;
@@ -46,10 +45,11 @@
 			}
 			.all-tools {
 				display: flex;
-				justify-content: center;
+				justify-content: space-evenly;
 				.tool-column {
 					
 					.tool-list {
+						margin-right: 10px;
 						p {
 							font-size: 12px;
 							text-align: left;
@@ -64,6 +64,13 @@
 			line-height: 1.71428571;
 			text-align: left;
 			margin: 0;
+		}
+		ul {
+			li {
+				text-align: left;
+				font-size: 14px;
+				line-height: 1.7;
+			}
 		}
 		.sourse-code {
 			display: flex;
@@ -119,7 +126,9 @@
 			.tools-in-project {
 				.all-tools {
 					.tool-column {
-						margin-right: 20px;
+						.tool-list {
+							margin: 0;
+						}
 					}
 				}
 			}
@@ -147,9 +156,6 @@
 				.all-tools {
 					.tool-column {
 						display: flex;
-						.tool-list {
-							margin-right: 20px;
-						}
 					}
 				}
 			}

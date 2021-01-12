@@ -24,17 +24,27 @@
 										<i class="fas fa-arrow-right"></i>
 									</a>	
 								</div>
-								<h3>About the project</h3>
+								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
-									<div class="all-tool-icons">
-										<img class="tool-icon" src="images/wordpress-logo.png" alt="wordpress logo">
-										<img class="tool-icon" src="images/js-logo.png" alt="js logo">
-										<img class="tool-icon" src="images/jquery-logo.png" alt="jQuery logo">
-										<img class="tool-icon" src="images/sass-logo.png" alt="sass logo">
-										<img class="tool-icon" src="images/php-logo.jpg" alt="php logo">
-										<img class="tool-icon" src="images/google-logo.png" alt="google-logo">
-									</div>  
+									<div class="all-tools">
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>HTML5</p>
+												<p>Sass</p>
+												<p>WordPress</p>
+												<p>JavaScript</p>
+											</div>
+										</div>
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>PHP</p>
+												<p>Google Analytics</p>	
+												<p>MAMP</p>
+												<p>Visual Studio Code </p>
+											</div>
+										</div>				
+									</div>	
 								</div>
 								<p>Collaborated with classmates, we designed and developed a Wordpress website for BCIT students of Office Administration with Technology program. We began with a meeting with the Lead Instructor of OAT course and went over everything about our client's program and student needs, the main purpose of the site, and her ideas of what she wanted the site to be.</p>
 							</div>
@@ -43,7 +53,7 @@
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
-								<h3>Design Process</h3>
+								<h3>Design</h3>
 								<p>After our meeting we mapped out the content she wanted on it, and made wireframes in Balsamiq to demonstrate the content arrangement. We also prepared a lot of examples with website designs to learn client’s design preferences. Next step was the creation of design prototype in Photoshop and after matching clients wishes the coding part has started.</p>
 							</div>
 							<div class="slick-slider">
@@ -57,7 +67,7 @@
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
-								<h3>Development Process</h3>
+								<h3>Development</h3>
 								<div class="sourse-code">
 									<i class="fab fa-github"></i>
 									<a href="https://github.com/htpwebdesign/OATProgram" target="_blank">sourse code</a>

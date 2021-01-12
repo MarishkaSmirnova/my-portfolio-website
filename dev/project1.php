@@ -27,16 +27,6 @@
 								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
-									<!-- <div class="all-tool-icons">
-										<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-										<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-										<img class="tool-icon" src="images/sass-logo.png" alt="sass logo">
-										<img class="tool-icon" src="images/jquery-logo.png" alt="sass logo">
-										<img class="tool-icon" src="images/js-logo.png" alt="js logo">
-										<img class="tool-icon" src="images/invision-logo.jpg" alt="invision logo">
-										<img class="tool-icon" src="images/photoshop-logo.png" alt="photoshop logo">
-										<img class="tool-icon" src="images/google-logo.png" alt="google  analytics logo">
-									</div>   -->
 									<div class="all-tools">
 										<div class="tool-column">
 											<div class="tool-list">
@@ -64,18 +54,20 @@
 									</div>	
 								</div>
 								<p>This website was created for the private lawyer based in Minnesota, US. He requested a website which will represent his expertise and the broad spectrum of Law Fields he can work with. 
-									I met with the client over Zoom and discussed our possible routes and design.<br>
-									During the meeting we discussed: <br>
-										- Objective of the site<br>
-										- Priorities to consider for the development of the site<br>
-										- Users or target audience<br>
-										- The primary task users are looking to accomplish when using site<br>
-										- Competitors<br>
-										- Design features<br>
-										- Brand guideline/colors/typefaces<br>
-										- Style/tone or imagery to consider<br>
-									The design and development of this project provides a clean, easy to navigate, and mobile friendly site that is accessible by all devices.
-								</p>
+									I met with the client over Zoom and discussed our possible routes and design.</p>
+								<p>During the meeting we discussed:</p>
+								<ul>
+									<li>Objective of the site.</li>
+									<li>Priorities to consider for the development of the site.</li>
+									<li>Target audience.</li>
+									<li>The primary task users are looking to accomplish when using site.</li>
+									<li>Competitors.</li>
+									<li>Design and developmet features.</li>
+									<li>Brand guideline/colors/typefaces.</li>
+									<li>Logo creation.</li>
+									<li>Style/tone or imagery to consider.</li>
+								</ul>	
+								<p>The design and development of this project provides a clean, easy to navigate, and mobile friendly site that is accessible by all devices.</p>
 							</div>
 							<img class="about-project-image" src="images/jefflaptop.jpg" data-aos="zoom-in" alt="client project laptop view" class="projectpiece">
 						</section>
@@ -112,7 +104,7 @@
 							</div>
 						</section>
 						
-						<button class="project-magic-button magic-button btn filter-button animate__animated animate__slideInUp" id="project-magic">
+						<button class="project-magic-button magic-button btn filter-button animate__animated animate__fadeIn" id="project-magic">
 							<a href="projects/Jeff/dev/index.html" target="_blank">View Live</a>
 						</button>
 					</div>

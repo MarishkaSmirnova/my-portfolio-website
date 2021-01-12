@@ -24,15 +24,23 @@
 										<i class="fas fa-arrow-right"></i>
 									</a>	
 								</div>
-								<h3>About the project</h3>
+								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
-									<div class="all-tool-icons">
-										<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-										<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-										<img class="tool-icon" src="images/js-logo.png" alt="js">
-										<img class="tool-icon" src="images/jquery-logo.png" alt="sass logo">
-									</div> 
+									<div class="all-tools">
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>HTML5</p>
+												<p>SASS</p>
+											</div>
+										</div>
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>JavaScript</p>
+												<p>jQuery</p>
+											</div>
+										</div>				
+									</div>
 								</div>	
 								<p>This game is a great way for web developers and designers to train RGB color model skills.
 									RGB colour system is not really intuitive at first and very different from most color systems that people used to work with. This system is based on that there are 3 primary colours : red, green and blue. The amount of each one ranges from 0 to 255 and all that we need are those 3 colours in different combinations ( from 0 to 255) to make any color that we could ever want.</p>
@@ -42,7 +50,7 @@
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
-								<h3>Design Process</h3>
+								<h3>Design</h3>
 								<p>The base of this game has been done by me during one of the Web Developer Bootcamp on Udemy. I added and styled  the starting page by myself and changed the design of the game to match the main page.</p>
 							</div>
 							<div class="slick-slider">
@@ -52,7 +60,7 @@
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
-								<h3>Development Process</h3>
+								<h3>Development</h3>
 								<div class="sourse-code">
 									<i class="fab fa-github"></i>
 									<a href="https://github.com/MarishkaSmirnova/color-game-js" target="_blank">sourse code</a>
