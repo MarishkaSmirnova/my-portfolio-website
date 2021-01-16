@@ -1,5 +1,5 @@
 
-<button class="btn filter-button active" onclick="filterSelection('all')"> See All</button>
+<button class="btn filter-button active" onclick="filterSelection('all')">See All</button>
 <button class="btn filter-button" onclick="filterSelection('sass')">SASS</button>
 <button class="btn filter-button" onclick="filterSelection('js')">JavaScript</button>
 <button class="btn filter-button" onclick="filterSelection('wordpress')">WordPress</button>

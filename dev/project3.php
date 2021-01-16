@@ -61,7 +61,10 @@
 								<div><img src="images/cpplanning.jpeg" alt="client project sitemap" class="projectpiece"></div>
 								<div><img src="images/clplanning2.jpeg" alt="client project sitemap" class="projectpiece"></div>
 								<div><img src="images/clientsitemap.png" alt="client project sitemap" class="projectpiece"></div>
+								<div><img src="images/oatdesign1.png" alt="" class="projectpiece"></div>
 								<div><img src="images/clientdes1.png" alt="" class="projectpiece"></div>
+								<div><img src="images/oatdesign2.png" alt="" class="projectpiece"></div>
+								<div><img src="images/oatdesign3.png" alt="" class="projectpiece"></div>
 							</div>
 						</section>
 						<section class="project-info left-section animate__animated animate__fadeIn" 

@@ -47,6 +47,9 @@
 		margin:7px;
 		padding: 2px;
 	}
+	.active {
+		border: 2px solid $golden;
+	}
 }
 .project-link {
   text-decoration: none;
@@ -79,8 +82,8 @@
 	height: 82%;
 	left: 0%;
 	top: 9%;
-	border-bottom: 1px solid #FFF;
-	border-top: 1px solid #FFF;
+	border-bottom: 1px solid $bright_white;
+	border-top: 1px solid $bright_white;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0,1);
@@ -115,7 +118,7 @@
 	position: relative;
 	font-size: 15px;
 	background-color: transparent;
-	color: #FFF;
+	color: $bright_white;
 	padding: 12px;
 	opacity: 0;
 	filter: alpha(opacity=0);
@@ -128,7 +131,7 @@
 	text-transform: uppercase;
 } 
 .hovereffect a, .hovereffect p {
-	color: #FFF;
+	color: $bright_white;
 	padding: 9px;
 	opacity: 0;
 	font-size: 12px;
@@ -185,7 +188,6 @@
     display: block;
 }
 .btn {
-    // border-radius: 2px;
     border: 1px solid black;
     height: 45px;
     width: 146px;
@@ -202,7 +204,6 @@
     &:hover {
 		color: $black;
 		transition: .2s ease;
-		border: 1px solid $black;
 		text-decoration: none;
   	}
 }

@@ -17,7 +17,7 @@
 								<div class="about-me-wrapper" data-aos="zoom-in">
 									<img class="myphoto-ontheright" src="images/marina_smirnova.jpg" alt="marina smirnova web designer developer">
 									<p>Hi, I’m Marina.</p>
-									<p>I am a front-end developer and UX designer living in beautiful Vancouver, Canada.</p>
+									<p>I am a front-end developer and UX designer living in beautiful Vancouver, British Columbia.</p>
 									<p>I first started dabbing into the world of web development through learning how to code watching Udemy web development and design courses when I needed my own website years ago. I found myself very enthusiastic about creating it and the more I learned, the more I fell in love with web development and it wasn’t much later when I decided that web development is what I want to pursue as my career.</p>
 									<p>I love that front-end development allows both sides of my brain to challenge each other and work cohesively together. I strive to create positive digital experience for every user, no matter the device, browser, age, or tech-savviness. I believe that a website should not only look beautiful, but functional as well. I always work hard on enhancing the user's experience and  make the interface straightforward. </p>
 									<p>When I’m not developing or bringing the design into living, you can find me biking on the seawall, skiing and enjoying the beautiful weather (rain or shine – I love both) in Vancouver.</p>

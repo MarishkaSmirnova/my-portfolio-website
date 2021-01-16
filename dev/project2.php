@@ -27,12 +27,6 @@
 								<h3>About</h3>
 								<div class="tools-in-project">
 									<h5>Tools used:</h5>
-									<!-- <div class="all-tool-icons">
-										<img class="tool-icon" src="images/html-logo.jpg" alt="html logo">
-										<img class="tool-icon" src="images/css-logo.png" alt="css logo">
-										<img class="tool-icon" src="images/react.png" alt="react logo">
-										<img class="tool-icon" src="images/invision-logo.jpg" alt="invision logo">
-									</div>   -->
 									<div class="all-tools">
 										<div class="tool-column">
 											<div class="tool-list">
@@ -47,11 +41,12 @@
 											</div>
 										</div>	
 									</div>				
-									</div>
 								</div>
+							</div>	
 								<p>After graduation from React.js and Modern JavaScript BCIT course, I decided that the best way to demonstrate my accomplishments is to create a small App with exercises and assignments I did during this course.</p>
-							</div>
+						
 							<img class="about-project-image" src="images/react-laptop.jpg" alt="client project laptop view" class="projectpiece">
+							</div>
 						</section>
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="design">
@@ -84,10 +79,10 @@
 							<a href="projects/reactCourse/" target="_blank">View Live</a>
 						</button>
 					</div>
+					
 					<?php 
 						include 'scroll-button.php';
 						?>
-				</div>
 
 				<div class="right-side">
 					<?php 
