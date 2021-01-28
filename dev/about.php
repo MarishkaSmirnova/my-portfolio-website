@@ -36,7 +36,7 @@
 											<div class="card--hover">
 												<ul>
 													<li>HTML5 / CSS3</li>
-													<li>SASS</li>
+													<li>Sass</li>
 													<li>JavaScript</li>
 													<li>React.js</li>
 													<li>jQuery</li>
@@ -116,10 +116,10 @@
 												<ul>
 													<li>Git</li>
 													<li>GitHub</li>
-													<li>GitHub Desktop</li>
 													<li>Terminal</li>
 													<li>MAMP</li>
 													<li>npm</li>
+													<li>Gulp</li>
 													<li>VS Code</li>
 												</ul>
 											</div>

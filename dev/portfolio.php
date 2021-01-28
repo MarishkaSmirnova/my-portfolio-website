@@ -74,11 +74,11 @@
 								</div>
 							</div>    
 							<div class="portfolio-item js"> 
-								<div href="project5.php" class="hovereffect project-link filterDiv react">
-									<img class="project-image" src="images/react-project.png" alt="react project">
+								<div href="project5.php" class="hovereffect project-link shopify filterDiv">
+									<img class="project-image" src="images/ginger-main.png" alt="shopify project">
 										<div class="overlay">
-											<h2 class="project-name">React.js News Website</h2>
-											<p> html5|css3|react.js<p>
+											<h2 class="project-name">Shopify Website</h2>
+											<p> shopify|liquid|adobe photoshop<p>
 												<a href="project5.php">see project</a>
 											</p>
 										</div>
@@ -96,7 +96,7 @@
 								</div>
 							</div>
 							<div class="portfolio-item js"> 
-								<div href="project7.php" class="hovereffect project-link photoshop filterDiv">
+								<div href="project7.php" class="hovereffect project-link photoshop php filterDiv">
 									<img class="project-image" src="images/php-main.jpg" alt="php project marina smirnova">
 										<div class="overlay">
 											<h2 class="project-name">PHP Students Database</h2>

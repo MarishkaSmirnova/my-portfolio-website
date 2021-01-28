@@ -2,7 +2,7 @@
 <html lang="en">
 	<?php 
 		include 'head.php';
-		?>
+	?>
 	<body>
 		<?php 
 			include 'header.php';
@@ -12,14 +12,14 @@
 				<div class="left-side" id="left-side">
 					<div class="project-me-left">
 						<section class="project-info left-section about-section animate__animated animate__fadeIn" 
-								id="project">
+									id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
-									<a href="project5.php" class="prev-button">
+									<a href="project4.php" class="prev-button">
 										<span class="prev-btn">Prev</span>
 										<i class="fas fa-arrow-left"></i>
 									</a>	
-									<a href="project7.php"class="next-button">
+									<a href="project6.php"class="next-button">
 										<span class="next-btn">Next</span>
 										<i class="fas fa-arrow-right"></i>
 									</a>	
@@ -30,54 +30,61 @@
 									<div class="all-tools">
 										<div class="tool-column">
 											<div class="tool-list">
-												<p>Adobe Photoshop</p>
+												<p>HTML5</p>
+												<p>CSS3</p>
+											</div>
+										</div>
+										<div class="tool-column">
+											<div class="tool-list">
+												<p>Debut theme</p>
+												<p>Liquid</p>
 											</div>
 										</div>				
 									</div>
 								</div>	
-								<p>One of the assignments on my TWD BCIT course was to create website design with the help of Adobe Photoshop and Adobe XD.</br>
-									Anti-stress colouring pictures are really trendy nowadays and I came up with an idea to make a website where you can do colouring paintings online as well as order books with colouring pictures.</p>
+								<p>This Shopify shop was partially created during my front-end development course in BCIT and was finalized with custom Liquid code later this year after completing Liquid development course on Udemy.
+									It is made for real gingerbread cooker who enjoy doing it as a hobby.</p>
 							</div>
-							<img class="about-project-image" src="images/phlaptop.jpg" alt="laptop photoshop project" class="projectpiece">
+							<img class="about-project-image" src="images/gingerlaptop.jpg" alt="gingershop project" class="projectpiece" alt="ginger shop shopify project image">
 						</section>
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
-								<h3>Design Process</h3>
-								<p>I made clean user friendly design with main accents on colouring pictures.</p>
+								<h3>Design</h3>
+								<p>Design part is based on Debut theme customazation capabilities and my own ideas created with Liquid code.</p>
 							</div>
 							<div class="slick-slider">
-								<div><img src="images/photoshopdes1.png" alt="" class="projectpiece"></div>
-								<div><img src="images/photoshopdes.png" alt="" class="projectpiece"></div>
-								<div><img src="images/photoshopdes2.png" alt="" class="projectpiece"></div>
-								<div><img src="images/photoshopdes3.png" alt="" class="projectpiece"></div>
-								<div><img src="images/photoshopdes4.png" alt="" class="projectpiece"></div>
+								<div><img src="images/ginger-tabphone.jpg" alt="ginger project design" class="projectpiece"></div>
 							</div>
 						</section>
 						<section class="project-info left-section animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
-								<h3>Development Process</h3>
-								<p>I’m planning to develop this website in future.</p>
+								<h3>Development</h3>
+								<p> After completing Liquid Development code I enjoed doing some custom settings on "About" and "Contacts" pages.
+								</p>
 							</div>
 							<div class="slick-slider">
-								<div><img src="images/coming-soon.jpg" alt="" class="projectpiece"></div>
-								<div><img src="images/coming-soon.jpg" alt="" class="projectpiece"></div>
-								<div><img src="images/coming-soon.jpg" alt="" class="projectpiece"></div>
+								<div><img src="images/ginger-code.png" alt="ginger code" class="projectpiece"></div>
+								<div><img src="images/ginger-code2.png" alt="ginger code" class="projectpiece"></div>
 							</div>
 						</section>
-					</div>
-					<?php 
+						<button class="project-magic-button magic-button btn filter-button animate__animated animate__fadeIn" 
+								id="project-magic">
+							<a href="https://bcit-7788.myshopify.com" target="_blank">View Live</a>
+						</button>
+						<?php 
 						include 'scroll-button.php';
-						?>	
+						?>
+					</div>
 				</div>
 
 				<div class="right-side">
 					<?php 
 						include 'project-stages.php';
 						?> 
-				</div>	
-			</div>	
+				</div>
+			</div>		
 		</main>
 		<?php 
 			include 'footer.php';
@@ -86,6 +93,6 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 
 		<script src="scripts/slickslider.js"></script>
-		<script src="scripts/scroll-btn.js"></script>
+		<script src="scripts/scroll-btn.js"></script>	
 	</body>
 </html>
