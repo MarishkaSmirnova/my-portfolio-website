@@ -30,17 +30,17 @@
 									<div class="all-tools">
 										<div class="tool-column">
 											<div class="tool-list">
-												<p>HTML5</p>
 												<p>Sass</p>
 												<p>WordPress</p>
 												<p>JavaScript</p>
+												<p>PHP7</p>
 											</div>
 										</div>
 										<div class="tool-column">
 											<div class="tool-list">
-												<p>PHP</p>
+												<p>Underscore theme</p>
 												<p>Google Analytics</p>	
-												<p>MAMP</p>
+												<p>Github</p>
 												<p>Visual Studio Code </p>
 											</div>
 										</div>				
@@ -106,7 +106,7 @@
 			include 'footer.php';
 			?>	
 		<script src="scripts/script-menu-overlay.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="slick/slick/slick.min.js"></script> 
 		<script src="scripts/slickslider.js"></script>
 		<script src="scripts/scroll-btn.js"></script>

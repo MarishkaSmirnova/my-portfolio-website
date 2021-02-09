@@ -106,7 +106,7 @@
 		</main>
 		 <?php include 'footer.php'; ?> 
 		<script src="scripts/script-menu-overlay.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="scripts/filter.js"></script>
 	</body>
 </html>
