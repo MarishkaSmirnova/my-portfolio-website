@@ -1,5 +1,8 @@
 .project-me-left {
 	padding: 0 2.5rem;
+	.design, .development {
+		margin-top: 50px;
+	}
 }
 .about-section {
     .about-project-image{
@@ -45,11 +48,11 @@
 			}
 			.all-tools {
 				display: flex;
-				justify-content: space-evenly;
+				align-items: center;
+				justify-content: center;
 				.tool-column {
-					
 					.tool-list {
-						margin-right: 10px;
+						margin-right: 20px;
 						p {
 							font-size: 12px;
 							text-align: left;
@@ -121,19 +124,6 @@
 
 //420
 @media screen and (min-width: $phoneIphone){ 
-	.project-info {
-		.project-textpart {
-			.tools-in-project {
-				.all-tools {
-					.tool-column {
-						.tool-list {
-							margin: 0;
-						}
-					}
-				}
-			}
-		}
-	}
     .about-project-image {
         height: 200px;
 	}
@@ -222,14 +212,31 @@
 }
 //1800
 @media screen and (min-width: $desktopLarge) {
-	.slick-slider {
-		width: 60%;
-		left: 20%;
-	}
 	.project-info {
 		.project-textpart {
 			margin: 0 100px 0 100px;
+			.tools-in-project {
+				.all-tools {
+					.tool-column {
+						.tool-list {
+							p {
+								margin: 0;
+							}
+						}
+					}
+				}
+			}
+			p, ul{
+				margin: 0 200px;
+			}
+			.one-line {
+				text-align: center;
+			}
 		}
+	}
+	.slick-slider {
+		width: 60%;
+		left: 20%;
 	}
 	.home-project_box  {
 		.hompage-project-link {

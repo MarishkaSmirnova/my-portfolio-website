@@ -15,7 +15,7 @@
 									id="project">
 							<div class="project-textpart">
 								<div class="next-prev-buttons">
-									<a href="project4.php" class="prev-button">
+									<a href="project5-1.php" class="prev-button">
 										<span class="prev-btn">Prev</span>
 										<i class="fas fa-arrow-left"></i>
 									</a>	
@@ -31,47 +31,56 @@
 										<div class="tool-column">
 											<div class="tool-list">
 												<p>HTML5</p>
-												<p>CSS3</p>
+												<p>SASS</p>
 											</div>
 										</div>
 										<div class="tool-column">
 											<div class="tool-list">
-												<p>Debut theme</p>
-												<p>Liquid</p>
+												<p>JavaScript</p>
+												<p>jQuery</p>
 											</div>
 										</div>				
 									</div>
 								</div>	
-								<p>This Shopify shop was partially created during my front-end development course in BCIT and was finalized with custom Liquid code later this year after completing Liquid development course on Udemy.
-									It is made for real gingerbread cooker who enjoy doing it as a hobby.</p>
+								<p>This game is a great way for web developers and designers to train RGB color model skills.
+									RGB colour system is not really intuitive at first and very different from most color systems that people used to work with. This system is based on that there are 3 primary colours : red, green and blue. The amount of each one ranges from 0 to 255 and all that we need are those 3 colours in different combinations ( from 0 to 255) to make any color that we could ever want.</p>
 							</div>
-							<img class="about-project-image" src="images/gingerlaptop.jpg" alt="gingershop project" class="projectpiece" alt="ginger shop shopify project image">
+							<img class="about-project-image" src="images/jslaptop.jpg" alt="" class="projectpiece">
 						</section>
-						<section class="project-info left-section animate__animated animate__fadeIn" 
+						<section class="project-info left-section design animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
 								<h3>Design</h3>
-								<p>Design part is based on Debut theme customazation capabilities and my own ideas created with Liquid code.</p>
+								<p>The base of this game has been done by me during one of the Web Developer Bootcamp on Udemy. I added and styled  the starting page by myself and changed the design of the game to match the main page.</p>
 							</div>
 							<div class="slick-slider">
-								<div><img src="images/ginger-tabphone.jpg" alt="ginger project design" class="projectpiece"></div>
+								<div><img src="images/jsdesign2.png" alt="" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section animate__animated animate__fadeIn" 
+						<section class="project-info left-section development animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
 								<h3>Development</h3>
-								<p> After completing Liquid Development code I enjoed doing some custom settings on "About" and "Contacts" pages.
+								<div class="sourse-code">
+									<i class="fab fa-github"></i>
+									<a href="https://github.com/MarishkaSmirnova/color-game-js" target="_blank">sourse code</a>
+								</div>
+								<p>When you push ‘Start’ button, the page with the game is loaded and we see six random colours. These are always random and one of those colours is listed on the top in numbers. Our job is to pick which one.
+									If we choose the wrong color it disappears and we see ‘Try again!’ message. When we choose the right color, the message says ‘Correct!’ and all circles plus top background color part changes to this color.
+									There’s an Easy mode also, where the player has to pick from 3 color instead of 6.
+									We also can reset the game at two points of the game: by choosing ’New colours’ during the game and by choosing ‘Try again’ after the player has chosen the correct color. 
+									The game page is responsive. However the main page made with HTML Canvas works only on screen from 1700px wide and more.
 								</p>
 							</div>
 							<div class="slick-slider">
-								<div><img src="images/ginger-code.png" alt="ginger code" class="projectpiece"></div>
-								<div><img src="images/ginger-code2.png" alt="ginger code" class="projectpiece"></div>
+								<div><img src="images/js1.png" alt="js game" class="projectpiece"></div>
+								<div><img src="images/js2.png" alt="js code" class="projectpiece"></div>
+								<div><img src="images/js3.png" alt="javascript game" class="projectpiece"></div>
 							</div>
 						</section>
 						<button class="project-magic-button magic-button btn filter-button animate__animated animate__fadeIn" 
 								id="project-magic">
-							<a href="https://bcit-7788.myshopify.com" target="_blank">View Live</a>
+							<a href="projects/jsGame/index.html" target="_blank">View Live</a>
 						</button>
 						<?php 
 						include 'scroll-button.php';

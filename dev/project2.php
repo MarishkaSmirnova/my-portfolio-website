@@ -42,24 +42,22 @@
 										</div>	
 									</div>				
 								</div>
-							</div>	
 								<p>After graduation from React.js and Modern JavaScript BCIT course, I decided that the best way to demonstrate my accomplishments is to create a small App with exercises and assignments I did during this course.</p>
-						
+							</div>	
 							<img class="about-project-image" src="images/react-laptop.jpg" alt="client project laptop view" class="projectpiece">
-							</div>
 						</section>
-						<section class="project-info left-section animate__animated animate__fadeIn" 
+						<section class="project-info left-section design animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
 								<h3>Design</h3>
 								<p>The design process was pretty simple and straightforward. I made a quick sketch using InVision App to get a clear idea of the look, content and order of the projects.</p>
 							</div>
 							<div class="slick-slider">
-								<div><img src="images/react-wireframes.jpg" alt="client project sitemap" class="projectpiece"></div>
+								<div><img src="images/react-wireframes.png" alt="client project sitemap" class="projectpiece"></div>
 								<div><img src="images/react-design.png" alt="client project sitemap" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section animate__animated animate__fadeIn" 
+						<section class="project-info left-section development animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
 								<h3>Development</h3>
@@ -70,7 +68,7 @@
 								<p>Creating all those projects and exercises gave me hands-on experience with working with react components, children elements, different kinds of component lifecycles and event handlers, creating forms, making asynchronous requests, working with JSON data, fetching data from multiple APIs and many more. During the creation of this particular project, I’ve learned how to use the popular library used by React Applications - React Router.</p>
 							</div>
 							<div class="slick-slider">
-								<div><img src="images/react-dev.jpg" alt="client project development marina smirnova" class="projectpiece"></div>
+								<div><img src="images/react-dev.png" alt="client project development marina smirnova" class="projectpiece"></div>
 							</div>
 						</section>
 						
@@ -83,7 +81,7 @@
 					<?php 
 						include 'scroll-button.php';
 						?>
-
+				</div>
 				<div class="right-side">
 					<?php 
 						include 'project-stages.php';

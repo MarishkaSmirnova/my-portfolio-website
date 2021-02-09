@@ -71,7 +71,7 @@
 							</div>
 							<img class="about-project-image" src="images/jefflaptop.jpg" data-aos="zoom-in" alt="client project laptop view" class="projectpiece">
 						</section>
-						<section class="project-info left-section animate__animated animate__fadeIn" 
+						<section class="project-info left-section design animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
 								<h3>Design</h3>
@@ -88,7 +88,7 @@
 								<div><img src="images/jeff-photoshop.jpg" alt="client project photoshop" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section animate__animated animate__fadeIn" 
+						<section class="project-info left-section development animate__animated animate__fadeIn" 
 									id="development">
 							<div class="project-textpart">
 								<h3>Development</h3>
@@ -99,8 +99,8 @@
 								<p>After having the initial designs approved, we moved into the development stage, which is generally my favourite part. I used SASS for this project which was very helpful to keep the fonts, colours and mixins consistent. Developing the website, I used such libraries as JQuery for creation of filter on Practice area page and modal navigation bar, and Slick Slider library for sliders in the Testimonials section on the main page. As well as Adaptive Images library for making images responsive to the all screen sizes and AOS library for animation. Contact form is written using PHP.</p>
 							</div>
 							<div class="slick-slider">
-								<div><img src="images/jeff-code1.jpg" alt="client project development marina smirnova" class="projectpiece"></div>
-								<div><img src="images/jeff-code2.jpg" alt="developer marina smirnova" class="projectpiece"></div>
+								<div><img src="images/jeff-code1.png" alt="client project development marina smirnova" class="projectpiece"></div>
+								<div><img src="images/jeff-code2.png" alt="developer marina smirnova" class="projectpiece"></div>
 							</div>
 						</section>
 						

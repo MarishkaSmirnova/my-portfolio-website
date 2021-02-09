@@ -50,7 +50,7 @@
 							</div>
 							<img class="about-project-image" src="images/oat-laptop.jpg" alt="client project laptop view" class="projectpiece">
 						</section>
-						<section class="project-info left-section animate__animated animate__fadeIn" 
+						<section class="project-info left-section design animate__animated animate__fadeIn" 
 								id="design">
 							<div class="project-textpart">
 								<h3>Design</h3>
@@ -67,7 +67,7 @@
 								<div><img src="images/oatdesign3.png" alt="" class="projectpiece"></div>
 							</div>
 						</section>
-						<section class="project-info left-section animate__animated animate__fadeIn" 
+						<section class="project-info left-section development animate__animated animate__fadeIn" 
 								id="development">
 							<div class="project-textpart">
 								<h3>Development</h3>

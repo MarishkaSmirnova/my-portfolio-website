@@ -41,7 +41,7 @@
 									<img class="project-image" src="images/react-main.png" alt="bcit react landing page marina smirnova">
 										<div class="overlay">
 											<h2 class="project-name">React.js projects</h2>
-											<p> html5|css3|react.js|invision|</p>
+											<p> html5|css3|react.js|invision</p>
 											<p>
 												<a href="project2.php">see project</a>
 											</p>
@@ -49,7 +49,7 @@
 								</div>
 							</div>
 							<div class="portfolio-item js"> 
-								<div href="project3.php" class="hovereffect project-link filterDiv wordpress js php jquery sass balsamiq google portfolio-item">
+								<div href="project3.php" class="hovereffect project-link filterDiv wordpress js php jquery sass balsamiq google photoshop portfolio-item">
 									<img class="project-image" src="images/oat-main.png" alt="client project bcit oat">
 										<div class="overlay">
 											<h2 class="project-name">WordPress OAT Website</h2>
@@ -63,41 +63,52 @@
 								</div>
 							</div>
 							<div class="portfolio-item js"> 
-								<div href="project4.php" class="hovereffect filterDiv project-link js ">
-									<img class="project-image" src="images/jsdesign1.png" alt="javascript project">
-										<div class="overlay">
-											<h2 class="project-name">JS Color Game</h2>
-											<p> html5|css3|js<p>
-												<a href="project4.php">see project</a>
-											</p>
-										</div>
-								</div>
-							</div>    
-							<div class="portfolio-item js"> 
-								<div href="project5.php" class="hovereffect project-link shopify filterDiv">
+								<div href="project4.php" class="hovereffect project-link shopify filterDiv">
 									<img class="project-image" src="images/ginger-main.png" alt="shopify project">
 										<div class="overlay">
 											<h2 class="project-name">Shopify Website</h2>
 											<p> shopify|liquid|adobe photoshop<p>
-												<a href="project5.php">see project</a>
+												<a href="project4.php">see project</a>
 											</p>
 										</div>
 								</div>
 							</div>
 							<div class="portfolio-item js"> 
-								<div href="project6.php" class="hovereffect project-link photoshop filterDiv">
+								<div href="project5.php" class="hovereffect filterDiv project-link js ">
+									<img class="project-image" src="images/jsdesign1.png" alt="javascript project">
+										<div class="overlay">
+											<h2 class="project-name">JS Color Game</h2>
+											<p> html5|css3|javascript<p>
+												<a href="project5.php">see project</a>
+											</p>
+										</div>
+								</div>
+							</div>    				
+							<div class="portfolio-item js"> 
+								<div href="project5-1.php" class="hovereffect project-link invision photoshop filterDiv">
+									<img class="project-image" src="images/deco-main.png" alt="invision project">
+										<div class="overlay">
+											<h2 class="project-name">InVision project</h2>
+											<p> invision|adobe photoshop<p>
+												<a href="project5-1.php">see project</a>
+											</p>
+										</div>
+								</div>
+							</div>
+							<div class="portfolio-item js"> 
+								<div href="project6.php" class="hovereffect project-link photoshop invision filterDiv">
 									<img class="project-image" src="images/photoshop.png" alt="photoshop project web design marina smirnova">
 										<div class="overlay">
 											<h2 class="project-name">Photoshop Design Project</h2>
-											<p> adobe photoshop<p>
+											<p> adobe photoshop|adobe xd|invision<p>
 												<a href="project6.php">see project</a>
 											</p>
 										</div>
 								</div>
 							</div>
 							<div class="portfolio-item js"> 
-								<div href="project7.php" class="hovereffect project-link photoshop php filterDiv">
-									<img class="project-image" src="images/php-main.jpg" alt="php project marina smirnova">
+								<div href="project7.php" class="hovereffect project-link php filterDiv">
+									<img class="project-image" src="images/php-main.png" alt="php project marina smirnova">
 										<div class="overlay">
 											<h2 class="project-name">PHP Students Database</h2>
 											<p>html5|css3|php<p>
