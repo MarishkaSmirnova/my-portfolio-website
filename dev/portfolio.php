@@ -11,7 +11,7 @@
 			<div class="container">
 				<div class="left-side" id="left-side">
 					<div class="portfolio-left animate__animated animate__fadeIn animate__delay-1s>">
-						<h2 class="main-title">Projects:</h2>
+						<h2 class="main-title animate__animated animate__fadeIn animate__delay-1s">Projects:</h2>
 						<div class="portfolio-left-filter">
 							<h2>Tools filter:</h2>
 							<div class="portfolio-left-filter-buttons" id="myBtnContainer">
@@ -22,7 +22,7 @@
 						</div>
 						<div class="all-projects grid">
 
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project1.php" class="hovereffect project-link filterDiv js php invision photoshop sass jquery google portfolio-item">
 									<img class="project-image" src="images/jeff-main.png" alt="bcit landing page marina smirnova">
 										<div class="overlay">
@@ -36,7 +36,7 @@
 										</div>
 								</div>
 							</div>  
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project2.php" class="hovereffect project-link filterDiv react invision portfolio-item portfolio-item">
 									<img class="project-image" src="images/react-main.png" alt="bcit react landing page marina smirnova">
 										<div class="overlay">
@@ -48,7 +48,7 @@
 										</div>
 								</div>
 							</div>
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project3.php" class="hovereffect project-link filterDiv wordpress js php jquery sass balsamiq google photoshop portfolio-item">
 									<img class="project-image" src="images/oat-main.png" alt="client project bcit oat">
 										<div class="overlay">
@@ -62,7 +62,7 @@
 										</div>
 								</div>
 							</div>
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project4.php" class="hovereffect project-link shopify filterDiv">
 									<img class="project-image" src="images/ginger-main.png" alt="shopify project">
 										<div class="overlay">
@@ -73,7 +73,7 @@
 										</div>
 								</div>
 							</div>
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project5.php" class="hovereffect filterDiv project-link js ">
 									<img class="project-image" src="images/jsdesign1.png" alt="javascript project">
 										<div class="overlay">
@@ -84,7 +84,7 @@
 										</div>
 								</div>
 							</div>    				
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project5-1.php" class="hovereffect project-link invision photoshop filterDiv">
 									<img class="project-image" src="images/deco-main.png" alt="invision project">
 										<div class="overlay">
@@ -95,7 +95,7 @@
 										</div>
 								</div>
 							</div>
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project6.php" class="hovereffect project-link photoshop invision filterDiv">
 									<img class="project-image" src="images/photoshop.png" alt="photoshop project web design marina smirnova">
 										<div class="overlay">
@@ -106,7 +106,7 @@
 										</div>
 								</div>
 							</div>
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project7.php" class="hovereffect project-link php filterDiv">
 									<img class="project-image" src="images/php-main.png" alt="php project marina smirnova">
 										<div class="overlay">
@@ -117,7 +117,7 @@
 										</div>
 								</div>
 							</div>
-							<div class="portfolio-item js"> 
+							<div class="portfolio-item js animate__animated animate__fadeIn animate__delay-1s"> 
 								<div href="project8.php" class="hovereffect project-link filterDiv sass js php jquery photoshop balsamiq google">
 									<img class="project-image" src="images/portfolio-main.png" alt="portfolio site image">
 										<div class="overlay">
@@ -143,7 +143,7 @@
 				</div> <!--left side-->
 			
 				<div class="right-side">
-					<div class="portfolio-right animate__animated animate__fadeIn animate__delay-1s" id="myBtnContainer">
+					<div class="portfolio-right animate__animated animate__fadeIn animate__delay-2s" id="myBtnContainer">
 					<h2>Tools filter:</h2>
 					<?php 
 						include 'filter-buttons.php';

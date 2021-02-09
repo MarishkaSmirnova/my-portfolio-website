@@ -42,7 +42,7 @@
 										</div>				
 									</div>
 								</div>	
-								<p>This Shopify shop was partially created during my front-end development course in BCIT and was finalized with custom Liquid code later this year after completing Liquid development course on Udemy.
+								<p>This Shopify shop was partially created during my front-end development course in BCIT and was finalized with custom Liquid code later this year after completing the Liquid development course on Udemy.
 									It is made for real gingerbread cooker who enjoy doing it as a hobby.</p>
 							</div>
 							<img class="about-project-image" src="images/gingerlaptop.jpg" alt="gingershop project" class="projectpiece" alt="ginger shop shopify project image">
@@ -51,7 +51,7 @@
 								id="design">
 							<div class="project-textpart">
 								<h3>Design</h3>
-								<p class="one-line">Design part is based on Debut theme customazation capabilities and my own ideas created with Liquid code.</p>
+								<p class="one-line">The design part is based on Debut theme customization capabilities and my ideas created with Liquid code.</p>
 							</div>
 							<div class="slick-slider">
 								<div><img src="images/ginger-tabphone.jpg" alt="ginger project design" class="projectpiece"></div>
@@ -61,7 +61,7 @@
 								id="development">
 							<div class="project-textpart">
 								<h3>Development</h3>
-								<p class="one-line"> After completing Liquid Development code I enjoed doing some custom settings on "About" and "Contacts" pages.
+								<p class="one-line"> After completing the Liquid Development course I enjoyed doing some custom settings on the "About" and "Contacts" pages.
 								</p>
 							</div>
 							<div class="slick-slider">

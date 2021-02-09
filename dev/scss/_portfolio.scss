@@ -26,6 +26,11 @@
 		justify-content: center;
 		margin-top: 50px;
 		.portfolio-item {
+			-webkit-transition: all 2s ease;  
+			-moz-transition: all 2s ease;  
+			-o-transition: all 2s ease;  
+			-ms-transition: all 2s ease;  
+			transition: all 2s ease;
 			.project-link {
 				figure {
 					.project-image {
@@ -58,7 +63,7 @@
 .project-image {
   	height: 200px;
   	width: 300px;
-	margin: 15px;
+	margin: 10px;
 }
 .tool-icon {
     height:20px;
@@ -148,21 +153,7 @@
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
-// .portfolio-item {
-// 	figure {
-// 		border: 1px solid $golden;
-// 		padding: 6px;
-// 	}
-// }
 
-// figcaption {
-//     display:flex;
-//     justify-content: space-between;
-//     p {
-//         margin:0;
-//         padding:0;
-//     }
-// }
 .portfolio-right {
 	display:flex;
 	flex-direction:column;
@@ -215,6 +206,7 @@
 				.project-image {
 					height: 217px;
 					width: 330px;
+					margin: 15px;
 				}
 			}
 		}
