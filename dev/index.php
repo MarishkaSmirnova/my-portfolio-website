@@ -17,7 +17,7 @@
 								<a href="mailto:hello@msmirnova.ca">hello@msmirnova.ca</a>
 							</h2>
 							<h3 class="animate__animated animate__zoomIn">Hello, I'm Marina</h3>
-							<h1 class="animate__animated animate__zoomIn animate__delay-1s">web developer & <br>UX designer</h1>
+							<h1 class="animate__animated animate__zoomIn animate__delay-1s">web developer & <br>SEO Specialist</h1>
 							<h2 class="animate__animated animate__zoomIn animate__delay-2s">based in Vancouver, BC</h2>
 							<div class="social-media-links animate__animated animate__zoomIn animate__delay-2s"> 
 								<a href="https://www.linkedin.com/in/marina-smirnova-4a0a9a114/?locale=en_US">
