@@ -18,7 +18,7 @@
 	<link rel="icon" 
 			type="image/png" 
 			href="images/favicon.png">
-    <title>Marina Smirnova | Web Development and UX Design</title>
+    <title>Marina Smirnova | Web Development and SEO Specialist</title>
 	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Playfair+Display:700i&display=swap" rel="stylesheet"> -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
