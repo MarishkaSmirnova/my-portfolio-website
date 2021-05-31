@@ -52,7 +52,7 @@
 								<div class="card-container">
 									<div class="card">
 										<a href="#0">
-											<div class="card--display"><i class="fas fa-code"></i>
+											<div class="card--display"><i class="fab fa-google"></i>
 												<h2>SEO</h2>
 											</div>
 											<div class="card--hover">
